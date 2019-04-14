@@ -1,0 +1,283 @@
+{
+  "version": 8,
+  "name": "ATONs - Etalab Open Licence 2.0 (© Shom)",
+  "metadata": {
+    "mapbox:autocomposite": false,
+    "openmaptiles:version": "3.x"
+  },
+  "center": [
+    -4.4980,
+    48.2490
+  ],
+  "zoom": 8,
+  "minzoom": 0,
+  "maxzoom": 18,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "atons": {
+      "type": "vector",
+      "url": "mbtiles://mbtiles/atons.mbtiles"
+    }
+  },
+  "sprite": "atons",
+  "glyphs": "http://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "BCNCAR",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "BCNCAR",
+      "type": "symbol"
+    },
+    {
+      "id": "BCNISD",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "BCNISD",
+      "type": "symbol"
+    },
+    {
+      "id": "BCNLAT",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "BCNLAT",
+      "type": "symbol"
+    },
+    {
+      "id": "BCNSPP",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "BCNSPP",
+      "type": "symbol"
+    },
+    {
+      "id": "BOYCAR",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "BOYCAR",
+      "type": "symbol"
+    },
+    {
+      "id": "BOYISD",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "BOYISD",
+      "type": "symbol"
+    },
+    {
+      "id": "BOYLAT",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "BOYLAT",
+      "type": "symbol"
+    },
+    {
+      "id": "BOYSAW",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "BOYSAW",
+      "type": "symbol"
+    },
+    {
+      "id": "BOYSPP",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "BOYSPP",
+      "type": "symbol"
+    },
+    {
+      "id": "DAYMAR",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "DAYMAR",
+      "type": "symbol"
+    },
+    {
+      "id": "FORSTC",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "FORSTC",
+      "type": "symbol"
+    },
+    {
+      "id": "LNDMRK",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "LNDMRK",
+      "type": "symbol"
+    },
+    {
+      "id": "MORFAC",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "MORFAC",
+      "type": "symbol"
+    },
+    {
+      "id": "NEWOBJ",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "NEWOBJ",
+      "type": "symbol"
+    },
+    {
+      "id": "PILPNT",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "PILPNT",
+      "type": "symbol"
+    },
+    {
+      "id": "SILTNK",
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": ["get", "icon_objl"],
+        "icon-rotation-alignment": "map"
+      },
+      "minzoom": 0,
+      "maxzoom": 18,
+      "paint": {
+        "icon-opacity": 1
+      },
+      "source": "atons",
+      "source-layer": "SILTNK",
+      "type": "symbol"
+    }
+  ]
+}

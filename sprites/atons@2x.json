@@ -1,0 +1,373 @@
+{
+  "BCNCAR_E": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 0,
+    "y": 0
+  },
+  "BCNCAR_E_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 100,
+    "y": 0
+  },
+  "BCNCAR_N": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 0,
+    "y": 200
+  },
+  "BCNCAR_N_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 100,
+    "y": 200
+  },
+  "BCNCAR_S": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 200,
+    "y": 0
+  },
+  "BCNCAR_S_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 300,
+    "y": 0
+  },
+  "BCNCAR_W": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 200,
+    "y": 200
+  },
+  "BCNCAR_W_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 300,
+    "y": 200
+  },
+  "BCNISD": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 400,
+    "y": 0
+  },
+  "BCNISD_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 500,
+    "y": 0
+  },
+  "BCNLAT_B": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 600,
+    "y": 0
+  },
+  "BCNLAT_B_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 700,
+    "y": 0
+  },
+  "BCNLAT_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 400,
+    "y": 200
+  },
+  "BCNLAT_T_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 500,
+    "y": 200
+  },
+  "BCNSPP": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 600,
+    "y": 200
+  },
+  "BCNSPP_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 700,
+    "y": 200
+  },
+  "BOYCAR_E": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 0,
+    "y": 400
+  },
+  "BOYCAR_E_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 100,
+    "y": 400
+  },
+  "BOYCAR_N": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 200,
+    "y": 400
+  },
+  "BOYCAR_N_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 300,
+    "y": 400
+  },
+  "BOYCAR_S": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 400,
+    "y": 400
+  },
+  "BOYCAR_S_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 500,
+    "y": 400
+  },
+  "BOYCAR_W": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 600,
+    "y": 400
+  },
+  "BOYCAR_W_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 700,
+    "y": 400
+  },
+  "BOYISD": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 0,
+    "y": 600
+  },
+  "BOYISD_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 100,
+    "y": 600
+  },
+  "BOYLAT_B": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 200,
+    "y": 600
+  },
+  "BOYLAT_B_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 300,
+    "y": 600
+  },
+  "BOYLAT_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 400,
+    "y": 600
+  },
+  "BOYLAT_T_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 500,
+    "y": 600
+  },
+  "BOYSAW": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 600,
+    "y": 600
+  },
+  "BOYSAW_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 700,
+    "y": 600
+  },
+  "BOYSPP": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 800,
+    "y": 0
+  },
+  "BOYSPP_T": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 900,
+    "y": 0
+  },
+  "CATLMK17": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1000,
+    "y": 0
+  },
+  "CATLMK17FUNCTN29": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1100,
+    "y": 0
+  },
+  "CATLMK7": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1200,
+    "y": 0
+  },
+  "CATLMK_12": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1300,
+    "y": 0
+  },
+  "DAYMAR": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1400,
+    "y": 0
+  },
+  "FOGSIG": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1500,
+    "y": 0
+  },
+  "FORSTC": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 800,
+    "y": 200
+  },
+  "MORFAC": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 900,
+    "y": 200
+  },
+  "NEWOBJ": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1000,
+    "y": 200
+  },
+  "PILPNT": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1100,
+    "y": 200
+  },
+  "SILTNK": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1200,
+    "y": 200
+  },
+  "default_amer": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1300,
+    "y": 200
+  },
+  "enlu": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1400,
+    "y": 200
+  },
+  "enlu_1": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1500,
+    "y": 200
+  },
+  "enlu_10": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 800,
+    "y": 400
+  },
+  "enlu_3": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 900,
+    "y": 400
+  },
+  "enlu_4": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1000,
+    "y": 400
+  },
+  "enlu_5": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1100,
+    "y": 400
+  },
+  "enlu_6": {
+    "height": 200,
+    "pixelRatio": 2,
+    "width": 100,
+    "x": 1200,
+    "y": 400
+  }
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Balisage Shom - Balisenav OpenLayers</title>
+    <script
+        src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL">
+    </script>
+    <script src="./v5.3.0/ol.js"></script>
+    <link rel="stylesheet" href="./v5.3.0/ol.css">
+    <style>
+      body {
+        margin: 0
+      }
+      .map {
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+      }
+    </style>
+</head>
+
+<body>
+    <div id="map" class="map"></div>
+    <script>
+        const Feature = ol.Feature;
+        const Map = ol.Map;
+        const View = ol.View;
+        const GeoJSON = ol.format.GeoJSON;
+
+        const TileLayer = ol.layer.Tile;
+        const VectorLayer = ol.layer.Vector;
+
+        const OSM = ol.source.OSM;
+        const VectorSource = ol.source.Vector;
+
+        const Style = ol.style.Style;
+        const Icon = ol.style.Icon;
+
+        var iconCache = {};
+        var styleFunction = function (feature) {
+          var iconObj = feature.get("icon");
+
+          var SCALE = null;
+
+          var currentZoom = map.getView().getZoom();
+          if (currentZoom >= 0 && currentZoom <= 1) SCALE = .01;
+          if (currentZoom > 1 && currentZoom <= 2) SCALE = .01;
+          if (currentZoom > 2 && currentZoom <= 3) SCALE = .02;
+          if (currentZoom > 3 && currentZoom <= 4) SCALE = .03;
+          if (currentZoom > 4 && currentZoom <= 5) SCALE = .04;
+          if (currentZoom > 5 && currentZoom <= 6) SCALE = .05;
+          if (currentZoom > 6 && currentZoom <= 7) SCALE = .06;
+          if (currentZoom > 7 && currentZoom <= 8) SCALE = .07;
+          if (currentZoom > 8 && currentZoom <= 9) SCALE = .08;
+          if (currentZoom > 9 && currentZoom <= 10) SCALE = .09;
+          if (currentZoom > 10 && currentZoom <= 11) SCALE = .10;
+          if (currentZoom > 11 && currentZoom <= 12) SCALE = .133;
+          if (currentZoom > 12 && currentZoom <= 13) SCALE = .166;
+          if (currentZoom > 13 && currentZoom <= 14) SCALE = .199;
+          if (currentZoom > 14 && currentZoom <= 15) SCALE = .3;
+          if (currentZoom > 15 && currentZoom <= 16) SCALE = .4;
+          if (currentZoom > 16 && currentZoom <= 17) SCALE = .5;
+          if (currentZoom > 17 && currentZoom <= 18) SCALE = .6;
+          if (currentZoom > 18) SCALE = .6;
+
+          var styles = [];
+
+          if (iconObj.fogsig) {
+            var fogsigStyle = new Style({
+              image: new Icon(({
+                //anchor: [.5, .5],
+                //anchorOrigin: 'bottom-right',
+                anchorXUnits: 'fraction',
+                anchorYUnits: 'fraction',
+                scale: SCALE || 0.3,
+                //size: [20, 40],
+                imgSize: [200, 400],
+                src: 'SVG/' + iconObj.fogsig,
+                //offsetOrigin: 'bottom-left',
+              }))
+            });
+            styles.push(fogsigStyle)
+          }
+
+          var objlStyle = new Style({
+            image: new Icon(({
+              anchorOrigin: 'bottom-left',
+              //anchor: [50, 100],
+              anchor: [0.5, 0.5],
+              //anchorXUnits: 'pixel',
+              anchorYUnits: 'fraction',
+              anchorXUnits: 'fraction',
+              scale: SCALE || 0.3,
+              size: [200, 400],
+              imgSize: [200, 400],
+              src: 'SVG/' + iconObj.objl,
+              //offsetOrigin: 'bottom-left',
+            }))
+          });
+
+          styles.push(objlStyle);
+
+          return styles;
+        };
+
+        var vectorSource = new VectorSource({
+          url: './atons.geojson',
+          format: new GeoJSON(),
+          useSpatialIndex: true,
+        });
+
+        var vectorLayer = new VectorLayer({
+          source: vectorSource,
+          style: styleFunction,
+          renderMode: "image",
+          updateWhileAnimating: true,
+          updateWhileInteracting: true,
+        });
+
+        var map = new Map({
+            layers: [
+                new TileLayer({
+                    source: new OSM()
+                }),
+                vectorLayer
+            ],
+            target: 'map',
+            view: new View({
+                center: ol.proj.fromLonLat([-4.7710227, 48.3298711]),
+                //zoom: 15
+                zoom: 22
+            })
+        });
+    </script>
+</body>
+
+</html>

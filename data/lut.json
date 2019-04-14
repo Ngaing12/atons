@@ -1,0 +1,2676 @@
+{
+       "NTXST":{
+          "0":"Text string in national language"
+       },
+       "AGENCY":{
+          "0":"Agency responsible for production"
+       },
+       "BCNSHP":{
+          "0":"Forme de balise",
+          "1":"Perche, jalon, pieu",
+          "2":"Branche",
+          "3":"Tourelle",
+          "4":"Balise &agrave; treillis",
+          "5":"Balise pilier",
+          "6":"Cairn",
+          "7":"Balise &agrave; flotteurs"
+       },
+       "BOYSHP":{
+          "0":"Forme de bou&eacute;e",
+          "1":"C&ocirc;nique",
+          "2":"Cylindrique",
+          "3":"Sph&eacute;rique",
+          "4":"Pyl&ocirc;ne, charpente",
+          "5":"Espar, fuseau",
+          "6":"Bou&eacute;e tonne",
+          "7":"Super-bou&eacute;e/bou&eacute;e g&eacute;ante",
+          "8":"Pour r&eacute;gion glaciaire"
+       },
+       "BUISHP":{
+          "0":"Forme de bâtiment",
+          "1":"{no specific shape}",
+          "2":"{tower}",
+          "3":"{spire}",
+          "4":"{cupola (dome) }",
+          "5":"Immeuble haut",
+          "6":"Pyramide",
+          "7":"Cylindrique",
+          "8":"Sph&eacute;rique",
+          "9":"Cubique",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "BURDEP":{
+          "0":"Profondeur d'enfouissement"
+       },
+       "CALSGN":{
+          "0":"Signal d'appel"
+       },
+       "CATACH":{
+          "0":"Cat&eacute;gorie de mouillage",
+          "1":"Mouillage sans restriction",
+          "2":"Mouillage en eau profonde",
+          "3":"Mouillage pour navires-citernes",
+          "4":"Mouillage pour transport d'explosifs",
+          "5":"Mouillage de quarantaine",
+          "6":"Mouillage pour hydravions",
+          "7":"Mouillage pour embarcations",
+          "8":"Zone de mouillage pour embarcations",
+          "9":"Mouillage limite &agrave; 24 heures",
+          "10":"Mouillage &agrave; dur&eacute;e limit&eacute;e",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATAIR":{
+          "0":"Cat&eacute;gorie d'a&eacute;roport/a&eacute;rodrome",
+          "1":"A&eacute;roport militaire",
+          "2":"A&eacute;roport civil",
+          "3":"H&eacute;liport militaire",
+          "4":"H&eacute;liport civil",
+          "5":"Centre de vol &agrave; voile",
+          "6":"A&eacute;rodrome",
+          "7":"{helicopter platform}",
+          "8":"A&eacute;rodrome de secours",
+          "501":"Search and Rescue",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATBRG":{
+          "0":"Cat&eacute;gorie de pont",
+          "1":"Pont fixe",
+          "2":"Pont ouvrant",
+          "3":"Pont tournant",
+          "4":"Pont levant",
+          "5":"Pont a bascule",
+          "6":"Pont flottant",
+          "7":"Pont r&eacute;tractable",
+          "8":"Pont transbordeur",
+          "9":"Pont pour pi&eacute;tons",
+          "10":"Viaduc",
+          "11":"Aqueduc",
+          "12":"Pont suspendu",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATBUA":{
+          "0":"Cat&eacute;gorie de zone bâtie",
+          "1":"Zone urbaine",
+          "2":"Hameau",
+          "3":"Village",
+          "4":"Ville",
+          "5":"Grande ville",
+          "6":"Village de vacances",
+          "501":"native settlement",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATCAM":{
+          "0":"Cat&eacute;gorie de marque cardinale",
+          "1":"Marque cardinale nord",
+          "2":"Marque cardinale est",
+          "3":"Marque cardinale sud",
+          "4":"Marque cardinale ouest",
+          "701":"UNKNOWN",
+          "703":"Not Applicable"
+       },
+       "CATCAN":{
+          "0":"Cat&eacute;gorie de canal",
+          "1":"Transport",
+          "2":"Drainage",
+          "3":"Irrigation"
+       },
+       "CATCBL":{
+          "0":"Cat&eacute;gorie de cable",
+          "1":"Electrique",
+          "2":"{telephone/telegraph}",
+          "3":"Electrique &agrave; haute tension",
+          "4":"T&eacute;l&eacute;phonique",
+          "5":"T&eacute;l&eacute;graphique",
+          "6":"Câble/chaîne d'amarrage",
+          "501":"data transmission",
+          "502":"fibre optic",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATCHP":{
+          "0":"Cat&eacute;gorie de poste de contr&ocirc;le",
+          "1":"Douane",
+          "501":"RV Location",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATCOA":{
+          "0":"Cat&eacute;gorie de trait de c&ocirc;te",
+          "1":"C&ocirc;te abrupte",
+          "2":"C&ocirc;te basse",
+          "3":"Rivage de sable",
+          "4":"Rivage de cailloux",
+          "5":"Rivage de galets",
+          "6":"Glacier (cot&eacute; mer)",
+          "7":"Mangrove",
+          "8":"Rivage mar&eacute;cageux",
+          "9":"R&eacute;cif corallien",
+          "10":"C&ocirc;te couverte de glace",
+          "11":"Rivage de coquillages",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATCON":{
+          "0":"Cat&eacute;gorie de transporteur",
+          "1":"Transporteur a&eacute;rien &agrave; bennes (t&eacute;l&eacute;ph&eacute;rique)",
+          "2":"Tapis roulant",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATCOV":{
+          "0":"Cat&eacute;gorie de couverture",
+          "1":"Couverture avec donn&eacute;es disponibles",
+          "2":"Couverture sans donn&eacute;es disponibles"
+       },
+       "CATCRN":{
+          "0":"Cat&eacute;gorie de grue",
+          "1":"{crane without specific construction}",
+          "2":"Grue de chargement/portique pour conteneurs",
+          "3":"Bigue",
+          "4":"Grue mobile",
+          "5":"Grue en forme de A"
+       },
+       "CATCTR":{
+          "0":"Cat&eacute;gorie de point de rep&egrave;re (topographique)",
+          "1":"Point de triangulation",
+          "2":"Point d'observation astronomique",
+          "3":"Borne",
+          "4":"Rep&egrave;re de nivellement",
+          "5":"Borne fronti&egrave;re",
+          "6":"Canevas planim&eacute;trique, station maîtresse",
+          "7":"Canevas planim&eacute;trique, station secondaire",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATDAM":{
+          "0":"Cat&eacute;gorie de barrage",
+          "1":"Petit barrage",
+          "2":"Barrage",
+          "3":"Barrage de protection"
+       },
+       "CATDIS":{
+          "0":"Cat&eacute;gorie de marque de distance",
+          "1":"Indication de distance sans installation physique",
+          "2":"Marque visible: poteau",
+          "3":"Marque visible: panneau",
+          "4":"Marque visible: forme ind&eacute;finie"
+       },
+       "CATDOC":{
+          "0":"Cat&eacute;gorie de bassin",
+          "1":"Bassin de mar&eacute;e",
+          "2":"Bassin &agrave; flot"
+       },
+       "CATDPG":{
+          "0":"Cat&eacute;gorie de zone de d&eacute;p&ocirc;t",
+          "1":"{general dumping ground}",
+          "2":"Zone de d&eacute;p&ocirc;t de d&eacute;chets chimiques",
+          "3":"Zone de d&eacute;p&ocirc;t de produits radioactifs",
+          "4":"Zone de d&eacute;p&ocirc;t d'explosifs",
+          "5":"Zone de d&eacute;p&ocirc;t de deblais",
+          "6":"Cimeti&egrave;re &agrave; bateaux",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATFIF":{
+          "0":"Cat&eacute;gorie d'installation de pêche",
+          "1":"Perches de pêcherie",
+          "2":"Piege &agrave; poissons (installation mobile)",
+          "3":"Piege &agrave; poissons (barri&egrave;res de perches ou murets)",
+          "4":"Thonnaire",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATFNC":{
+          "0":"Cat&eacute;gorie de barri&egrave;re/mur",
+          "1":"Cl&ocirc;ture",
+          "2":"{muir}",
+          "3":"Haie",
+          "4":"Mur"
+       },
+       "CATFOG":{
+          "0":"Cat&eacute;gorie de signal de brume",
+          "1":"Explosif",
+          "2":"Diaphone",
+          "3":"Sir&egrave;ne",
+          "4":"Nautophone",
+          "5":"Trompe",
+          "6":"Typhon",
+          "7":"Cloche",
+          "8":"Sifflet",
+          "9":"Gong",
+          "10":"Corne"
+       },
+       "CATFOR":{
+          "0":"Cat&eacute;gorie de fortification",
+          "1":"Château",
+          "2":"Fort",
+          "3":"Batterie",
+          "4":"Casemate, blockhaus",
+          "5":"Tour &agrave; la Martello",
+          "6":"Redoute",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATFRY":{
+          "0":"Cat&eacute;gorie de navires-transbordeurs",
+          "1":"Navire transbordeur",
+          "2":"Bac &agrave; câble",
+          "3":"Navire transbordeur pour region glaciaire",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATGAT":{
+          "0":"Cat&eacute;gorie de porte",
+          "1":"{gate in general}",
+          "2":"Porte de barrage de protection",
+          "3":"Bateau-porte",
+          "4":"Porte d'&eacute;cluse",
+          "5":"Porte de digue",
+          "6":"D&eacute;versoir"
+       },
+       "CATHAF":{
+          "0":"Cat&eacute;gorie de port (fonction)",
+          "1":"Terminal roulier (RoRo)",
+          "2":"{timber yard}",
+          "3":"Terminal pour navires transbordeurs",
+          "4":"Port de pêche",
+          "5":"Port de plaisance",
+          "6":"Base navale",
+          "7":"Terminal pour navires-citernes",
+          "8":"Terminal pour passagers",
+          "9":"Chantier naval",
+          "10":"Terminal pour conteneurs",
+          "11":"Terminal pour vraquiers",
+          "12":"Ascenseur &agrave; bateaux (syncrolift)",
+          "13":"Chariot cavalier (portique sur pneus)",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATHLK":{
+          "0":"Cat&eacute;gorie de ponton (navire d&eacute;sarm&eacute;)",
+          "1":"Restaurant flottant",
+          "2":"Navire historique",
+          "3":"Mus&eacute;e",
+          "4":"Logement",
+          "5":"Brise lames flottant"
+       },
+       "CATICE":{
+          "0":"Cat&eacute;gorie de glace",
+          "1":"Banquise c&ocirc;ti&egrave;re",
+          "2":"{sea ice}",
+          "3":"{growler area}",
+          "4":"{pancake ice}",
+          "5":"Glacier",
+          "6":"{ice peak}",
+          "7":"{pack ice}",
+          "8":"Glace polaire",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATINB":{
+          "0":"Cat&eacute;gorie de bou&eacute;e de chargement",
+          "1":"Installation de chargement de type CALM",
+          "2":"Bou&eacute;e d'amarrage unique (SBM ou SPM)",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATLAM":{
+          "0":"Cat&eacute;gorie de marque lat&eacute;rale",
+          "1":"Lat&eacute;rale bâbord",
+          "2":"Lat&eacute;rale tribord",
+          "3":"Chenal pr&eacute;f&eacute;r&eacute; &agrave; tribord",
+          "4":"Chenal pr&eacute;f&eacute;r&eacute; &agrave; bâbord",
+          "701":"UNKNOWN",
+          "703":"Not Applicable"
+       },
+       "CATLIT":{
+          "0":"Cat&eacute;gorie de feu",
+          "1":"Feu directionnel",
+          "2":"{rear/upper light}",
+          "3":"{front/lower light}",
+          "4":"Feu d'alignement",
+          "5":"Feu a&eacute;ronautique",
+          "6":"Feu d'obstacle a&eacute;rien",
+          "7":"Feu d&eacute;tecteur de brume",
+          "8":"Projecteur",
+          "9":"Bordure lumineuse",
+          "10":"Feu auxiliaire",
+          "11":"Projecteur directionnel (spot)",
+          "12":"Feu ant&eacute;rieur",
+          "13":"Feu post&eacute;rieur",
+          "14":"Feu inf&eacute;rieur",
+          "15":"Feu sup&eacute;rieur",
+          "16":"Feu a effet de moir&eacute;",
+          "17":"Feu de secours",
+          "18":"Feu de rel&egrave;vement",
+          "19":"Dispos&eacute; horizontalement",
+          "20":"Dispos&eacute; verticalement",
+          "501":"Marine Light",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATLMK":{
+          "0":"Cat&eacute;gorie d'amers",
+          "1":"Cairn",
+          "2":"Cimeti&egrave;re",
+          "3":"Chemin&eacute;e",
+          "4":"Antenne &agrave; r&eacute;flecteur",
+          "5":"Mât de pavillon",
+          "6":"Torch&egrave;re",
+          "7":"Mât, pilier",
+          "8":"Manche &agrave; air",
+          "9":"Monument",
+          "10":"Colonne",
+          "11":"Plaque comm&eacute;morative",
+          "12":"Ob&eacute;lisque",
+          "13":"Statue",
+          "14":"Croix",
+          "15":"D&ocirc;me",
+          "16":"Antenne radar",
+          "17":"Tour",
+          "18":"Moulin &agrave; vent",
+          "19":"Eolienne",
+          "20":"Fl&egrave;che/minaret",
+          "21":"Rocher/bloc rocheux &agrave; terre",
+          "22":"rock pinnacle",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATLND":{
+          "0":"Cat&eacute;gorie de r&eacute;gion terrestre (paysage naturel)",
+          "1":"Marais",
+          "2":"Mar&eacute;cages",
+          "3":"Lande",
+          "4":"Bruy&egrave;re",
+          "5":"Chaine de montagnes",
+          "6":"Basses terres",
+          "7":"Canyon",
+          "8":"Rizi&egrave;re",
+          "9":"Terre agricole",
+          "10":"Savanne/zone herbeuse",
+          "11":"Parc",
+          "12":"Mar&eacute;cage",
+          "13":"Glissement de terrain",
+          "14":"Coul&eacute;e de lave",
+          "15":"Salines",
+          "16":"Moraine",
+          "17":"Crat&egrave;re",
+          "18":"Caverne, grotte",
+          "19":"Colonne rocheuse ou aiguille",
+          "20":"Caye",
+          "501":"beach",
+          "502":"backshore",
+          "503":"foreshore",
+          "504":"ice cliff",
+          "505":"snowfield / icefield",
+          "506":"tundra",
+          "507":"esker",
+          "508":"fault",
+          "509":"geothermal feature",
+          "510":"mountain pass",
+          "511":"rock strata / rock formation",
+          "512":"volcano",
+          "513":"cleared way / firebreak",
+          "514":"land sub",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATMFA":{
+          "0":"Cat&eacute;gorie de ferme marine",
+          "1":"Crustac&eacute;s",
+          "2":"Huîtres/moules",
+          "3":"Poissons",
+          "4":"Algues",
+          "5":"Perles",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATMOR":{
+          "0":"Cat&eacute;gorie de dispositif d'amarrage",
+          "1":"Duc d'Albe/dauphin",
+          "2":"Duc d'Albe pour la r&eacute;gulation des compas",
+          "3":"Bollard",
+          "4":"Mur d'amarrage",
+          "5":"Poteau/pilier",
+          "6":"Chaine/câble",
+          "7":"Coffres ou bou&eacute;es d'amarrage",
+          "501":"fast patrol boat waiting position",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATMPA":{
+          "0":"Cat&eacute;gorie de zone d'exercice militaire",
+          "1":"{practice area in general}",
+          "2":"Zone d'exercice de lancement de torpilles",
+          "3":"Zone d'exercice pour sous-marins",
+          "4":"Zone dangereuse d'exercice de tir (bombes, missiles)",
+          "5":"Zone d'exercice de mouillage de mines",
+          "6":"Zone d'exercice de tir (arme l&eacute;g&egrave;re, canon)",
+          "501":"(ACLANT) grid",
+          "502":"Surface Danger Area",
+          "503":"JMC Areas - JENOA grid",
+          "504":"practice and exercise area (surface fleet)",
+          "505":"stovepipe",
+          "506":"safe bottoming area",
+          "507":"submarine danger area",
+          "508":"testing and evaluation range",
+          "509":"range",
+          "510":"impact area",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATNAV":{
+          "0":"Cat&eacute;gorie d'alignement/rel&egrave;vement",
+          "1":"Ligne de garde",
+          "2":"Ligne de position",
+          "3":"Ligne de route"
+       },
+       "CATOBS":{
+          "0":"Cat&eacute;gorie d'obstruction",
+          "1":"Poteau/souche immerg&eacute;e d'arbre ou de poteau",
+          "2":"Tête de puits",
+          "3":"Diffuseur",
+          "4":"Gabarit",
+          "5":"Abri/refuge &agrave; poissons",
+          "6":"Zone de navigation contenant de nombreux dangers non identifi&eacute;s",
+          "7":"Fond malsain",
+          "8":"Barri&egrave;re de protection contre les glaces",
+          "9":"Systeme d'ancrage",
+          "10":"Barrage/barri&egrave;re de protection",
+          "501":"well protection structure",
+          "502":"subsea installation",
+          "503":"pipeline obstruction",
+          "504":"free standing conductor pipe",
+          "505":"manifold",
+          "506":"storage tank",
+          "507":"template",
+          "508":"pontoon",
+          "509":"sundry objects",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATOFP":{
+          "0":"Cat&eacute;gorie de plate-forme en mer",
+          "1":"Derrick/tour de forage, plate-forme de forage",
+          "2":"Plate-forme de production",
+          "3":"Plate-forme de recherche et d'observation",
+          "4":"Plate-forme articul&eacute;e de chargement (ALP)",
+          "5":"Installation de chargement de type SALM",
+          "6":"Tour d'amarrage",
+          "7":"Ile artificielle",
+          "8":"Navire-citerne d'exploitation, de stockage et de d&eacute;chargement (FPSO)",
+          "9":"Plate-forme d'h&eacute;bergement",
+          "10":"Structure flottante de navigation, de communication et de contr&ocirc;le (NCCB)",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATOLB":{
+          "0":"Cat&eacute;gorie de barri&egrave;re anti-pollution",
+          "1":"Barri&egrave;re de r&eacute;tention p&eacute;troli&egrave;re (air souffl&eacute; sous haute pression)",
+          "2":"Barri&egrave;re anti-pollution flottante"
+       },
+       "CATPIL":{
+          "0":"Cat&eacute;gorie de lieu d'embarquement du pilote",
+          "1":"Embarquement &agrave; partir d'un bateau pilote",
+          "2":"Pilote transf&eacute;r&eacute; par h&eacute;licopt&egrave;re",
+          "3":"Pilote embarqu&eacute; &agrave; la c&ocirc;te"
+       },
+       "CATPIP":{
+          "0":"Cat&eacute;gorie de pipeline/canalisation/pipe",
+          "1":"{pipeline in general}",
+          "2":"Emissaire",
+          "3":"Prise d'eau",
+          "4":"Egout",
+          "5":"Systeme antigel &agrave; bulles",
+          "6":"Conduite d'approvisionnement",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATPLE":{
+          "0":"Cat&eacute;gorie de pile/pilier",
+          "1":"Pieu",
+          "2":"Obstacle cach&eacute;",
+          "3":"Poteau",
+          "4":"Tripode"
+       },
+       "CATPRA":{
+          "0":"Cat&eacute;gorie de zone de production",
+          "1":"Carri&egrave;re",
+          "2":"Mine",
+          "3":"D&eacute;p&ocirc;t, zone de stockage",
+          "4":"Site de centrale",
+          "5":"Site de raffinerie",
+          "6":"Chantier &agrave; bois",
+          "7":"Site d'usine",
+          "8":"Parc &agrave; r&eacute;servoirs",
+          "9":"Site d'&eacute;oliennes",
+          "10":"Terril/crassier/tas de d&eacute;chets",
+          "501":"production area in general",
+          "502":"substation/transformer yard",
+          "504":"oil/gas facilities",
+          "505":"thermal power station",
+          "506":"salt evaporator",
+          "507":"pumping station",
+          "508":"oil/gas field",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATPYL":{
+          "0":"Cat&eacute;gorie de pylone",
+          "1":"Pyl&ocirc;ne/poteau de ligne &eacute;lectrique",
+          "2":"Pyl&ocirc;ne/poteau de ligne t&eacute;l&eacute;phonique ou t&eacute;l&eacute;graphique",
+          "3":"Pyl&ocirc;ne de transporteur a&eacute;rien &agrave; bennes",
+          "4":"Pyl&ocirc;ne/tour de pont suspendu",
+          "5":"Pile de pont"
+       },
+       "CATQUA":{
+          "0":"Category of quality of data",
+          "1":"data quality A",
+          "2":"data quality B",
+          "3":"data quality C",
+          "4":"data quality D",
+          "5":"data quality E",
+          "6":"quality not evaluated"
+       },
+       "CATRAS":{
+          "0":"Cat&eacute;gorie de station radar",
+          "1":"Station de surveillance radar",
+          "2":"Station radar c&ocirc;ti&egrave;re",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATREA":{
+          "0":"Cat&eacute;gorie de zone de restriction",
+          "1":"Zone de s&eacute;curit&eacute; autour d'installations en mer",
+          "2":"{anchoring prohibition area}",
+          "3":"{fishing prohibition area}",
+          "4":"R&eacute;serve naturelle",
+          "5":"R&eacute;serve ornithologique",
+          "6":"R&eacute;serve de chasse",
+          "7":"Zone de protection des phoques",
+          "8":"Base de d&eacute;magn&eacute;tisation",
+          "9":"Zone militaire",
+          "10":"Zone d'&eacute;pave historique",
+          "11":"{inshore traffic zone}",
+          "12":"Zone de protection du balisage",
+          "13":"{danger of stranding area}",
+          "14":"Champ de mines",
+          "15":"{diving prohibition area}",
+          "16":"{area to be avoided}",
+          "17":"{prohibited area}",
+          "18":"Zone de natation",
+          "19":"Zone d'attente",
+          "20":"Zone de recherche",
+          "21":"Zone de dragage",
+          "22":"Sanctuaire &agrave; poissons",
+          "23":"R&eacute;serve &eacute;cologique",
+          "24":"Zone de sillage excessif interdit",
+          "25":"Zone d'&eacute;vitage",
+          "26":"Zone de ski nautique",
+          "27":"Environmentally Sensitive Sea Area (ESSA)",
+          "28":"Particularly Sensitive Sea Area (PSSA)",
+          "501":"Maritime notification area",
+          "502":"Mine danger area",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATROD":{
+          "0":"Cat&eacute;gorie de route",
+          "1":"Autoroute",
+          "2":"Route principale",
+          "3":"Route secondaire",
+          "4":"Chemin/piste",
+          "5":"Rue principale",
+          "6":"Rue secondaire",
+          "7":"Intersection",
+          "501":"interchange",
+          "502":"trail",
+          "503":"primary route",
+          "504":"secondary route",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATROS":{
+          "0":"Cat&eacute;gorie de station radio",
+          "1":"Radiophare maritime ou a&eacute;ronautique circulaire (omnidirectionnel)",
+          "2":"Radiophare directionnel",
+          "3":"Radiophare tournant",
+          "4":"Station Consol",
+          "5":"Station radiogoniom&eacute;trique",
+          "6":"Station radio c&ocirc;ti&egrave;re assurant un service QTG",
+          "7":"Radiophare a&eacute;ronautique",
+          "8":"Decca",
+          "9":"Loran C",
+          "10":"GPS differentiel",
+          "11":"Toran",
+          "12":"Omega",
+          "13":"Syledis",
+          "14":"Chaika (Chayka)",
+          "501":"GSM",
+          "502":"MSI broadcast station",
+          "503":"Locator (LO)",
+          "504":"Distance Measuring Equipment (DME)",
+          "505":"Non-Directional Radio Beacon (NDB)",
+          "506":"Radar Responder Beacon (RACON)",
+          "507":"Radar Responder Beacon (RAMARK)",
+          "508":"VHF Omni Directional Radio Range (VOR)",
+          "509":"VHF Omni Directional (VORTAC)",
+          "510":"Tactical Air Navigational Equipment (TACAN)",
+          "511":"Localiser/Distance Measuring Equipment (LOC/DME)",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATRSC":{
+          "0":"Cat&eacute;gorie de station de sauvetage",
+          "1":"Station de sauvetage avec canot de sauvetage",
+          "2":"Station de sauvetage &eacute;quip&eacute;e de lance-fus&eacute;es",
+          "3":"{rescue station with lifeboat and rocket}",
+          "4":"Refuge pour naufrages",
+          "5":"Refuge pour marcheurs surpris par la mar&eacute;e",
+          "6":"Canot de sauvetage &agrave; son poste d'amarrage",
+          "7":"Station d'aide radio",
+          "8":"Equipement de premier secours",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATRTB":{
+          "0":"Cat&eacute;gorie de balise r&eacute;pondeur radar",
+          "1":"Ramark, balise radar &eacute;mettant en permanence",
+          "2":"Racon, balise r&eacute;pondeuse radar",
+          "3":"Balise r&eacute;pondeuse radar d'alignement"
+       },
+       "CATRUN":{
+          "0":"Cat&eacute;gorie de piste",
+          "1":"Piste d'a&eacute;rodrome",
+          "2":"H&eacute;listation"
+       },
+       "CATSCF":{
+          "0":"Cat&eacute;gorie d'installation pour embarcations",
+          "1":"Poste d'amarrage pour visiteurs",
+          "2":"Club nautique",
+          "3":"Elevateur &agrave; bateaux",
+          "4":"Artisan voilier",
+          "5":"Chantier naval",
+          "6":"Auberge",
+          "7":"Restaurant",
+          "8":"Shipchandler",
+          "9":"Magasin d'alimentation",
+          "10":"M&eacute;decin",
+          "11":"Pharmacie",
+          "12":"Point d'eau",
+          "13":"Station de carburant",
+          "14":"Electricit&eacute;",
+          "15":"Gaz en bouteille",
+          "16":"Douches",
+          "17":"Laverie",
+          "18":"Toilettes publiques",
+          "19":"Boite aux lettres",
+          "20":"T&eacute;l&eacute;phone public",
+          "21":"Poubelle",
+          "22":"Parking public",
+          "23":"Parking pour bateaux et remorques",
+          "24":"Caravaning",
+          "25":"Camping",
+          "26":"Station de pompage des eaux us&eacute;es",
+          "27":"T&eacute;l&eacute;phone d'urgence",
+          "28":"Zone de d&eacute;barquement/embarquement pour petits navires",
+          "29":"Bou&eacute;e d'amarrage pour visiteurs",
+          "30":"Poste de lavage",
+          "31":"Zone de pique-nique",
+          "32":"Atelier de m&eacute;canique",
+          "33":"Service de gardiennage/s&eacute;curit&eacute;"
+       },
+       "CATSEA":{
+          "0":"Cat&eacute;gorie de zone maritime",
+          "1":"{sea area in general}",
+          "2":"Chenal (entre des bancs)",
+          "3":"Banc",
+          "4":"Profondeurs abyssales",
+          "5":"Baie",
+          "6":"Fosse",
+          "7":"Bassin",
+          "8":"Bancs de vase",
+          "9":"R&eacute;cif",
+          "10":"Bordure rocheuse",
+          "11":"Canyon",
+          "12":"D&eacute;troit, goulet",
+          "13":"Haut-fond",
+          "14":"D&ocirc;me",
+          "15":"Dorsale",
+          "16":"Mont sous-marin",
+          "17":"Aiguille",
+          "18":"Plaine abyssale",
+          "19":"Plateau",
+          "20":"Eperon",
+          "21":"Plateau, plate-forme",
+          "22":"D&eacute;pression, cuvette",
+          "23":"Col",
+          "24":"Collines abyssales",
+          "25":"Glacis",
+          "26":"Glacis peri-insulaire",
+          "27":"Bordure continentale",
+          "28":"Marge continentale",
+          "29":"Glacis continental",
+          "30":"Escarpement, talus",
+          "31":"C&ocirc;ne, c&ocirc;ne sous-marin",
+          "32":"Zone de fracture",
+          "33":"Passage, goulet, passe",
+          "34":"Guyot",
+          "35":"Colline",
+          "36":"Cuvette",
+          "37":"Lev&eacute;e",
+          "38":"Vall&eacute;e axiale",
+          "39":"Fosse",
+          "40":"Montagnes",
+          "41":"Pic, piton",
+          "42":"Province, region",
+          "43":"Massif",
+          "44":"Chenal",
+          "45":"Chaîne de monts sous-marins",
+          "46":"Rebord",
+          "47":"Seuil",
+          "48":"Pente",
+          "49":"Terrasse",
+          "50":"Vall&eacute;e",
+          "51":"Canal",
+          "52":"Lac",
+          "53":"Rivi&egrave;re",
+          "54":"Partie droite de rivi&egrave;re",
+          "501":"estuary",
+          "502":"nearshore",
+          "503":"beach area",
+          "504":"beach sector",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATSIL":{
+          "0":"Cat&eacute;gorie de silo/r&eacute;servoir/tank",
+          "1":"Silo en g&eacute;n&eacute;ral",
+          "2":"R&eacute;servoir en g&eacute;n&eacute;ral",
+          "3":"Silo &agrave; grain",
+          "4":"Château d'eau"
+       },
+       "CATSIT":{
+          "0":"Cat&eacute;gorie de station de signaux de trafic",
+          "1":"Signaux de contr&ocirc;le du trafic portuaire",
+          "2":"Signaux d'entr&eacute;e et de sortie de port",
+          "3":"Signaux de trafic internationaux",
+          "4":"Signaux d'amarrage",
+          "5":"Signaux de bassin",
+          "6":"Signaux d'&eacute;cluse",
+          "7":"Signaux de barrage de protection",
+          "8":"Signaux de passage de pont",
+          "9":"Signaux de dragage",
+          "10":"Feu de contr&ocirc;le du trafic"
+       },
+       "CATSIW":{
+          "0":"Cat&eacute;gorie de station de signaux d'avertissement",
+          "1":"Signaux de danger",
+          "2":"Signaux d'obstacle &agrave; la navigation",
+          "3":"Signaux de câble",
+          "4":"Signaux d'exercice militaire",
+          "5":"Signaux de d&eacute;tresse",
+          "6":"Signaux m&eacute;t&eacute;orologique",
+          "7":"Signaux de tempête",
+          "8":"Signaux de glaces",
+          "9":"Signaux horaires",
+          "10":"Signaux de mar&eacute;e",
+          "11":"Signaux de courant de mar&eacute;e",
+          "12":"Mar&eacute;graphe",
+          "13":"Echelle de mar&eacute;e",
+          "14":"Signaux de plong&eacute;e",
+          "15":"Indicateur de hauteur d'eau (fluvial)",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATSLC":{
+          "0":"Cat&eacute;gorie de trait de c&ocirc;te artificiel",
+          "1":"Brise-lames",
+          "2":"Epi",
+          "3":"M&ocirc;le",
+          "4":"Appontement (jet&eacute;e)",
+          "5":"Appontement touristique",
+          "6":"Wharf (quai)",
+          "7":"Digue de calibrage",
+          "8":"Rip rap, enrochement",
+          "9":"Revêtement de protection",
+          "10":"Brise-mer",
+          "11":"Escalier (d&eacute;barcad&egrave;re)",
+          "12":"Rampe",
+          "13":"Cale de halage",
+          "14":"Pare-battage",
+          "15":"Quai(wharf) &agrave; face pleine",
+          "16":"Quai(wharf) &agrave; face ouverte",
+          "17":"Rampe pour billes de bois",
+          "501":"artifical obstruction",
+          "502":"natural obstruction",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATSLO":{
+          "0":"Cat&eacute;gorie de d&eacute;clivite",
+          "1":"En d&eacute;blai",
+          "2":"En remblai",
+          "3":"Dune",
+          "4":"Colline",
+          "5":"Pingo",
+          "6":"Falaise",
+          "7":"Eboulis"
+       },
+       "CATSPM":{
+          "0":"Cat&eacute;gorie de marque sp&eacute;ciale",
+          "1":"Marque de zone de tir dangereuse",
+          "2":"Cible",
+          "3":"Marque de position d'un bateau-cible",
+          "4":"Marque de base de d&eacute;magnetisation",
+          "5":"Marque pour barges",
+          "6":"Marque de câble",
+          "7":"Marque de d&eacute;p&ocirc;t de d&eacute;blais",
+          "8":"Marque d'&eacute;missaire",
+          "9":"SADO (Syst&egrave;me d'acquisition de donn&eacute;es oc&eacute;aniques)",
+          "10":"Marque de position d'un syst&egrave;me enregistreur (houlographe, courantom&egrave;tre)",
+          "11":"Marque de mouillage pour hydravions",
+          "12":"Marque de zone de loisirs",
+          "13":"Marque priv&eacute;e",
+          "14":"Marque de zone de mouillage",
+          "15":"LANBY (bou&eacute;e geante automatique)",
+          "16":"Marque d'alignement de route",
+          "17":"Marque de distance mesur&eacute;e",
+          "18":"Panneau de signalisation",
+          "19":"Marque de dispositif de s&eacute;paration du trafic",
+          "20":"Marque de mouillage interdit",
+          "21":"Marque d'accostage interdit",
+          "22":"Marque de d&eacute;passement interdit",
+          "23":"Marque de circulation &agrave; double sens interdite",
+          "24":"Marque de sillage excessif interdit",
+          "25":"Marque de limitation de vitesse",
+          "26":"Marque d'arrêt/stop",
+          "27":"Marque d'avertissement en g&eacute;n&eacute;ral",
+          "28":"Marque d'utilisation de la sir&egrave;ne",
+          "29":"Marque de tirant d'air maximal",
+          "30":"Marque de tirant d'eau maximal",
+          "31":"Marque de largeur maximale",
+          "32":"Marque de courant fort",
+          "33":"Marque d'accostage autoris&eacute;",
+          "34":"Marque de câble a&eacute;rien",
+          "35":"Marque de bord de chenal en pente",
+          "36":"Marque de t&eacute;l&eacute;phone",
+          "37":"Marque de travers&eacute;e de navires transbordeurs",
+          "38":"Feux de trafic maritime",
+          "39":"Marque de pipeline",
+          "40":"Marque de mouillage",
+          "41":"Marque de ligne de garde",
+          "42":"Marque de reglementation",
+          "43":"Marque de plong&eacute;e",
+          "44":"Balise refuge",
+          "45":"Marque de fonds malsains",
+          "46":"Marque pour la navigation de plaisance",
+          "47":"Marque d'h&eacute;liport",
+          "48":"Marque GPS",
+          "49":"Marque de zone d'amerrissage pour hydravions",
+          "50":"Marque d'entr&eacute;e interdite",
+          "51":"Marque de travaux en cours",
+          "52":"Marque dont l'utilit&eacute; est inconnue",
+          "53":"Marque de puits sous-marin",
+          "54":"Marque de s&eacute;paration de chenal",
+          "55":"Marque de ferme marine",
+          "56":"Marque de r&eacute;cif artificiel",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATTRK":{
+          "0":"Cat&eacute;gorie de voie recommand&eacute;e",
+          "1":"S'appuyant sur un balisage fixe",
+          "2":"Ne s'appuyant pas sur un balisage fixe",
+          "701":"UNKNOWN",
+          "703":"Not Applicable"
+       },
+       "CATTSS":{
+          "0":"Cat&eacute;gorie de dispositif de s&eacute;paration du trafic",
+          "1":"Syst&egrave;me adopt&eacute; par l'OMI",
+          "2":"Syst&egrave;me non adopt&eacute; par l'OMI",
+          "701":"UNKNOWN",
+          "703":"Not Applicable"
+       },
+       "CATVEG":{
+          "0":"Cat&eacute;gorie de v&eacute;g&eacute;tation",
+          "1":"Herbe",
+          "2":"{paddy field}",
+          "3":"Brousse",
+          "4":"Bois ou foret d'arbres a feuilles caduques",
+          "5":"Bois ou forêt de conif&egrave;res",
+          "6":"Bois ou forêt en g&eacute;n&eacute;ral (diverses essences m&eacute;lang&eacute;es)",
+          "7":"Pal&eacute;tuviers, mangrove",
+          "8":"{park}",
+          "9":"{parkland}",
+          "10":"Diverses cultures m&eacute;lang&eacute;es",
+          "11":"Roseaux",
+          "12":"Mousse",
+          "13":"Arbre en g&eacute;n&eacute;ral",
+          "14":"Arbre &agrave; feuilles persistantes (sauf conif&egrave;re)",
+          "15":"Conif&egrave;re",
+          "16":"Palmier",
+          "17":"Palmier nipa",
+          "18":"Casuarina",
+          "19":"Eucalyptus",
+          "20":"Arbre &agrave; feuilles caduques",
+          "21":"Pal&eacute;tuvier",
+          "22":"Filao",
+          "501":"nursery",
+          "502":"orchard / plantation",
+          "503":"vineyards",
+          "504":"oasis",
+          "505":"bamboo/cane",
+          "506":"fallow land"
+       },
+       "CATWAT":{
+          "0":"Cat&eacute;gorie de turbulence",
+          "1":"Brisants",
+          "2":"Tourbillon",
+          "3":"Turbulences/remous",
+          "4":"Rides de courant de mar&eacute;e",
+          "5":"Bombora"
+       },
+       "CATWED":{
+          "0":"Cat&eacute;gorie d'herbes/algues",
+          "1":"Algues g&eacute;antes",
+          "2":"Algues",
+          "3":"Herbes marines",
+          "4":"Sargasse",
+          "501":"Posidonia",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATWRK":{
+          "0":"Cat&eacute;gorie d'&eacute;pave",
+          "1":"Epave non dangereuse",
+          "2":"Epave dangereuse",
+          "3":"Vestiges d'&eacute;pave &eacute;parpill&eacute;s",
+          "4":"Epave dont seuls les mâts sont visibles &agrave; basse mer",
+          "5":"Epave dont une partie de la coque ou des superstructures sont visibles &agrave; basse mer",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CATZOC":{
+          "0":"Cat&eacute;gorie de zone de fiabilit&eacute; des donn&eacute;es",
+          "1":"Zone de fiabilit&eacute; A1",
+          "2":"Zone de fiabilit&eacute; A2",
+          "3":"Zone de fiabilit&eacute; B",
+          "4":"Zone de fiabilit&eacute; C",
+          "5":"Zone de fiabilit&eacute; D",
+          "6":"Zone de fiabilit&eacute; U (non estim&eacute;e)"
+       },
+       "CAT_TS":{
+          "0":"Cat&eacute;gorie de courant de mar&eacute;e",
+          "1":"Courant de flot",
+          "2":"Courant de jusant",
+          "3":"Autres courants li&eacute;s &agrave; la mar&eacute;e",
+          "701":"UNKNOWN",
+          "703":"Not Applicable"
+       },
+       "COLOUR":{
+          "0":"Couleur",
+          "1":"Blanc",
+          "2":"Noir",
+          "3":"Rouge",
+          "4":"Vert",
+          "5":"Bleu",
+          "6":"Jaune",
+          "7":"Gris",
+          "8":"Marron",
+          "9":"Ambre",
+          "10":"Violet",
+          "11":"Orange",
+          "12":"Magenta ",
+          "13":"Rose",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "COLPAT":{
+          "0":"Disposition des couleurs",
+          "1":"Bandes horizontales",
+          "2":"Raies verticales",
+          "3":"Bandes diagonales",
+          "4":"Quadrill&eacute;",
+          "5":"Bandes &agrave; orientation inconnue",
+          "6":"Bande formant un cadre",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "COMCHA":{
+          "0":"Canal de communication"
+       },
+       "CONDTN":{
+          "0":"Condition",
+          "1":"En construction",
+          "2":"En ruine",
+          "3":"En cours de comblement",
+          "4":"Sans ailes",
+          "5":"Construction pr&eacute;vue",
+          "501":"operational: completed, undamaged and working normally",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CONRAD":{
+          "0":"Remarquable au radar",
+          "1":"Remarquable au radar",
+          "2":"Non remarquable au radar",
+          "3":"Remarquable au radar (&eacute;quip&eacute; d'un r&eacute;flecteur radar)"
+       },
+       "CONVIS":{
+          "0":"Remarquable &agrave; la vue",
+          "1":"Remarquable &agrave; la vue",
+          "2":"Non remarquable &agrave; la vue"
+       },
+       "CPDATE":{
+          "0":"Compilation date"
+       },
+       "CSCALE":{
+          "0":"Echelle de compilation"
+       },
+       "CURVEL":{
+          "0":"Vitesse du courant"
+       },
+       "DATEND":{
+          "0":"Date de fin"
+       },
+       "DATSTA":{
+          "0":"Date de d&eacute;but"
+       },
+       "DRVAL1":{
+          "0":"Valeur minimale de la gamme de profondeurs"
+       },
+       "DRVAL2":{
+          "0":"Valeur maximale de la gamme de profondeurs"
+       },
+       "DUNITS":{
+          "0":"Depth units",
+          "1":"metres",
+          "2":"fathoms and feet",
+          "3":"feet",
+          "4":"fathoms and fractions",
+          "501":"fathoms",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "ELEVAT":{
+          "0":"Altitude (du sol)"
+       },
+       "ESTRNG":{
+          "0":"Port&eacute;e estim&eacute;e de l'&eacute;mission"
+       },
+       "EXCLIT":{
+          "0":"Condition de fonctionnement d'un feu",
+          "1":"Feu permanent (sans changement de caract&egrave;re)",
+          "2":"Feu de jour",
+          "3":"Feu de brume",
+          "4":"Feu de nuit",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "EXPSOU":{
+          "0":"Remarquabilite d'une sonde",
+          "1":"Valeur situ&eacute;e dans la gamme de profondeurs des fonds environnants (objet DEPARE)",
+          "2":"Valeur inferieure &agrave; la gamme de profondeurs des fonds environnants (objet DEPARE)",
+          "3":"Valeur superieure &agrave; la gamme de profondeurs des fonds environnants (objet DEPARE)",
+          "701":"UNKNOWN",
+          "703":"Not Applicable"
+       },
+       "FUNCTN":{
+          "0":"Fonction",
+          "1":"{no function/service of major interest}",
+          "2":"Capitainerie",
+          "3":"Douane",
+          "4":"Service de sant&eacute;",
+          "5":"H&ocirc;pital",
+          "6":"Bureau de poste",
+          "7":"H&ocirc;tel",
+          "8":"Gare",
+          "9":"Police",
+          "10":"Poste de police fluviale",
+          "11":"Bureau du service de pilotage",
+          "12":"Vigie du service de pilotage",
+          "13":"Banque",
+          "14":"Bureau principal d'un secteur administratif",
+          "15":"Entrep&ocirc;t de transit, magasin",
+          "16":"Usine",
+          "17":"Centrale",
+          "18":"Bâtiment administratif",
+          "19":"Etablissement d'enseignement",
+          "20":"Eglise",
+          "21":"Chapelle",
+          "22":"Temple",
+          "23":"Pagode",
+          "24":"Temple shintoïste",
+          "25":"Temple bouddhique",
+          "26":"Mosqu&eacute;e",
+          "27":"Marabout",
+          "28":"Vigie",
+          "29":"Communication",
+          "30":"T&eacute;l&eacute;vision",
+          "31":"Radio",
+          "32":"Radar",
+          "33":"Support de feu",
+          "34":"Radiocommunication par ondes hertziennes",
+          "35":"Refroidissement",
+          "36":"Observation",
+          "37":"Signal visuel horaire en forme de balle (Timeball)",
+          "38":"Indication de l'heure",
+          "39":"Contr&ocirc;le",
+          "40":"Dispositif d'amarrage pour aeronefs",
+          "41":"Stade",
+          "42":"Gare routiere (autobus)",
+          "501":"water treatment plant",
+          "502":"station (miscellanious)",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "HEIGHT":{
+          "0":"Altitude (sommet de construction, d'arbre, ...)"
+       },
+       "HORACC":{
+          "0":"Pr&eacute;cision horizontale"
+       },
+       "HORCLR":{
+          "0":"Largeur de passage"
+       },
+       "HORDAT":{
+          "0":"Systeme g&eacute;od&eacute;sique",
+          "1":"WGS 72",
+          "2":"WGS 84",
+          "3":"European 1950 (European Datum)",
+          "4":"Potsdam datum",
+          "5":"Adindan",
+          "6":"Afgooye",
+          "7":"Ain el Abd 1970",
+          "8":"Anna 1 Astro 1965",
+          "9":"Antigua Island Astro 1943",
+          "10":"Arc 1950",
+          "11":"Arc 1960",
+          "12":"Ascension Island 1958",
+          "13":"Astro beacon `E` 1945",
+          "14":"Astro DOS 71/4",
+          "15":"Astro Tern Island FERIG) 1961",
+          "16":"Astronomical Station 1952",
+          "17":"Australian Geodetic 1966",
+          "18":"Australian Geodetic 1984",
+          "19":"Ayabelle Lighthouse",
+          "20":"Bellevue (IGN)",
+          "21":"Bermuda 1957",
+          "22":"Bissau",
+          "23":"Bogota Observatory",
+          "24":"Bukit Rimpah",
+          "25":"Camp Area Astro",
+          "26":"Campo Inchauspe",
+          "27":"Canton Astro 1966",
+          "28":"Cape",
+          "29":"Cape Canaveral",
+          "30":"Carthage",
+          "31":"Chatam Island Astro 1971",
+          "32":"Chua Astro",
+          "33":"Corrego Alegre",
+          "34":"Dabola",
+          "35":"Djakarta (Batavia)",
+          "36":"DOS 1968",
+          "37":"Easter Island 1967",
+          "38":"European 1979",
+          "39":"Fort Thomas 1955",
+          "40":"Gan 1970",
+          "41":"Geodetic Datum 1949",
+          "42":"Graciosa Base SW 1948",
+          "43":"Guam 1963",
+          "44":"Gunung Segara",
+          "45":"GUX 1 Astro",
+          "46":"Herat North",
+          "47":"Hjorsey 1955",
+          "48":"Hong Kong 1963",
+          "49":"Hu-Tzu_Shan",
+          "50":"Indian",
+          "51":"Indian 1954",
+          "52":"Indian 1975",
+          "53":"Ireland 1965",
+          "54":"ISTS 061 Astro 1968",
+          "55":"ISTS 073 Astro 1969",
+          "56":"Johnston Island 1961",
+          "57":"Kandawala",
+          "58":"Kerguelen Island 1949",
+          "59":"Kertau 1948",
+          "60":"Kusaie Astro 1951",
+          "61":"L. C. 5 Astro 1961",
+          "62":"Leigon",
+          "63":"Liberia 1964",
+          "64":"Luzon",
+          "65":"Mahe 1971",
+          "66":"Massawa",
+          "67":"Merchich",
+          "68":"Midway Astro 1961",
+          "69":"Minna",
+          "70":"Montserrat Island Astro 1958",
+          "71":"M'Poraloko",
+          "72":"Nahrwan",
+          "73":"Naparima, BWI",
+          "74":"NAD 1927 (North American 1927)",
+          "75":"NAD 1983 (North American 1983)",
+          "76":"Observatorio Meteorologico 1939",
+          "77":"Old Egyptian 1907",
+          "78":"Old Hawaiian",
+          "79":"Oman",
+          "80":"Ordnance Surrey of Great Britain 1936",
+          "81":"Pico de las Nieves",
+          "82":"Pitcairn Astro 1967",
+          "83":"Point 58",
+          "84":"Pointe Noire 1948",
+          "85":"Porto Santo 1936",
+          "86":"Provisional South American 1956",
+          "87":"Provisional South Chilean 1963 (also known as Hito XVIII 1963)",
+          "88":"Puerto Rico",
+          "89":"Quatar national",
+          "90":"Qornoq",
+          "91":"Reunion",
+          "92":"Rome 1940",
+          "93":"Santo (DOS) 1965",
+          "94":"Sao Braz",
+          "95":"Sapper Hill 1943",
+          "96":"Scharzeck",
+          "97":"Selvagem Grande 1938",
+          "98":"South American 1969",
+          "99":"South Asia",
+          "100":"Tananarive Observatory 1925",
+          "101":"Timbalai 1948",
+          "102":"Tokyo",
+          "103":"Tristan Astro 1968",
+          "104":"Viti Levu 1916",
+          "105":"Wake-Eniwetok 1960",
+          "106":"Wake Island Astro 1952",
+          "107":"Yacare",
+          "108":"Zanderij",
+          "109":"American Samoa 1962",
+          "110":"Deception Island",
+          "111":"Indian 1960",
+          "112":"Indonesian 1974",
+          "113":"North Sahara 1959",
+          "114":"Pulkovo 1942",
+          "115":"S-42 (Pulkovo 1942)",
+          "116":"S-JYSK",
+          "117":"Voirol 1950",
+          "118":"Average Terrestial System 1977",
+          "119":"Compensation Geodesique du Quebec 1977",
+          "120":"Finnish (KKJ)",
+          "121":"Ordnance Survey of Ireland",
+          "122":"Revised Kertau",
+          "123":"Revised Nahrwan",
+          "124":"GGRS 76 (Greece)",
+          "125":"Nouvelle Triangulation de France",
+          "126":"RT 90 (Sweden)",
+          "127":"Geocentric Datum of Australia (FDA)",
+          "128":"BJZ54 (A954 Beijing Coordinates)",
+          "129":"Modified BJZ54",
+          "130":"GDZ80",
+          "131":"Local datum"
+       },
+       "HORLEN":{
+          "0":"Longueur"
+       },
+       "HORWID":{
+          "0":"Largeur"
+       },
+       "HUNITS":{
+          "0":"Height/length units",
+          "1":"metres",
+          "2":"feet",
+          "501":"international nautical mile",
+          "502":"cable",
+          "503":"yard",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "ICEFAC":{
+          "0":"Facteur de glace"
+       },
+       "INFORM":{
+          "0":"Information"
+       },
+       "JRSDTN":{
+          "0":"Juridiction",
+          "1":"Internationale",
+          "2":"Nationale",
+          "3":"Subdivision nationale",
+          "4":"provincial",
+          "5":"municipal",
+          "6":"federal",
+          "501":"NATO",
+          "701":"Undetermined or UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "LIFCAP":{
+          "0":"Capacit&eacute; de levage"
+       },
+       "LITCHR":{
+          "0":"Caract&eacute;ristique de feu",
+          "1":"F (fixe)",
+          "2":"Fl (&agrave; &eacute;clats)",
+          "3":"LFL (&agrave; &eacute;clats longs)",
+          "4":"Q (scintillant)",
+          "5":"VQ (scintillant rapide)",
+          "6":"UQ (scintillant ultra-rapide)",
+          "7":"Iso (isophase)",
+          "8":"Oc (&agrave; occultations)",
+          "9":"IQ (scintillant interrompu)",
+          "10":"IVQ (scintillant rapide interrompu)",
+          "11":"IUQ (scintillant ultra-rapide interrompu)",
+          "12":"Mo (signal morse)",
+          "13":"FFl (fixe et &agrave; eclats)",
+          "14":"A &eacute;clats avec &eacute;clats longs)",
+          "15":"OcFl (&agrave; occultations avec &eacute;clats)",
+          "16":"Fixe et &agrave; &eacute;clats longs)",
+          "17":"AlOc (alternatif &agrave; occultations)",
+          "18":"Alternatif &agrave; &eacute;clats longs",
+          "19":"AlFl (alternatif &agrave; &eacute;clats)",
+          "20":"Al (alternatif group&eacute;)",
+          "21":"{2 fixed (vertical)}",
+          "22":"{2 fixed (horizontal)}",
+          "23":"{3 fixed (vertical)}",
+          "24":"{3 fixed (horizontal)}",
+          "25":"Q+Lfl (scintillant + &eacute;clats longs)",
+          "26":"VQ+Lfl (scintillant rapide + &eacute;clats longs)",
+          "27":"UQ+Lfl (scintillant ultra-rapide + &eacute;clats longs)",
+          "28":"Alternatif",
+          "29":"Alternatif fixe et &agrave; &eacute;clat",
+          "701":"Undetermined or UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "LITVIS":{
+          "0":"Visibilit&eacute; d'un feu",
+          "1":"Tr&egrave;s intense",
+          "2":"Peu intense",
+          "3":"Peu visible",
+          "4":"Intensifi&eacute;",
+          "5":"Non intensifi&eacute;",
+          "6":"Visibilit&eacute; volontairement r&eacute;duite",
+          "7":"Masque",
+          "8":"Partiellement masqu&eacute;",
+          "701":"Undetermined or UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "MARSYS":{
+          "0":"Syst&egrave;me de balisage",
+          "1":"IALA A",
+          "2":"IALA B",
+          "3":"modified U.S.",
+          "4":"old U.S.",
+          "5":"U.S. intracoastal waterway",
+          "6":"U.S. uniform state",
+          "7":"U.S. western rivers",
+          "8":"SIGNI",
+          "9":"Sans syst&egrave;me",
+          "10":"Autre syst&egrave;me",
+          "701":"UNKNOWN",
+          "703":"Not Applicable"
+       },
+       "MLTYLT":{
+          "0":"Multiplicit&eacute; des feux"
+       },
+       "NATCON":{
+          "0":"Nature de la construction",
+          "1":"Maconnerie",
+          "2":"B&eacute;ton",
+          "3":"Gros blocs entass&eacute;s (enrochement)",
+          "4":"Revêtement dur",
+          "5":"Sans revêtement",
+          "6":"Bois",
+          "7":"M&eacute;tal",
+          "8":"Mat&eacute;riau composite (plastique + verre)",
+          "9":"Peint",
+          "501":"loose / unpaved",
+          "502":"loose / light",
+          "503":"hard /paved",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "NATION":{
+          "0":"Nationalit&eacute;"
+       },
+       "NATQUA":{
+          "0":"Qualificatif de nature de sol",
+          "1":"f (fin)",
+          "2":"m (moyen)",
+          "3":"c (grossier)",
+          "4":"bk (brise)",
+          "5":"sy (gluant)",
+          "6":"so (mou)",
+          "7":"sf (ferme)",
+          "8":"v (volcanique)",
+          "9":"ca (calcaire)",
+          "10":"h (dur)",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "NATSUR":{
+          "0":"Nature de sol",
+          "1":"M (vase)",
+          "2":"Cy (argile)",
+          "3":"Si (limon, boue)",
+          "4":"S (sable)",
+          "5":"St (pierres)",
+          "6":"G (gravier)",
+          "7":"P (cailloux)",
+          "8":"Cb (gros galets)",
+          "9":"R (roche)",
+          "10":"{marsh}",
+          "11":"Lv (lave)",
+          "12":"{snow}",
+          "13":"{ice}",
+          "14":"Co (corail)",
+          "15":"{swamp}",
+          "16":"{bog/moor}",
+          "17":"Sh (coquillages)",
+          "18":"Gros rocher",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "NINFOM":{
+          "0":"Information dans la langue nationale"
+       },
+       "NMDATE":{
+          "0":"Notice to Mariners date"
+       },
+       "NOBJNM":{
+          "0":"Toponyme dans la langue nationale"
+       },
+       "NPLDST":{
+          "0":"Zone de pilotage dans la langue nationale"
+       },
+       "NTXTDS":{
+          "0":"Texte descriptif dans la langue nationale"
+       },
+       "OBJNAM":{
+          "0":"Nom international de l'objet"
+       },
+       "ORIENT":{
+          "0":"Orientation"
+       },
+       "PEREND":{
+          "0":"Date p&eacute;riodique de fin"
+       },
+       "PERSTA":{
+          "0":"Date p&eacute;riodique de d&eacute;but"
+       },
+       "PICREP":{
+          "0":"Repr&eacute;sentation picturale"
+       },
+       "PILDST":{
+          "0":"District de pilotage"
+       },
+       "POSACC":{
+          "0":"Pr&eacute;cision de la position"
+       },
+       "PRCTRY":{
+          "0":"Producing country"
+       },
+       "PRODCT":{
+          "0":"Produit",
+          "1":"P&eacute;trole",
+          "2":"Gaz naturel",
+          "3":"Eau",
+          "4":"Pierre",
+          "5":"Houille",
+          "6":"Minerai",
+          "7":"Produits chimiques",
+          "8":"Eau potable",
+          "9":"Lait",
+          "10":"Bauxite",
+          "11":"Coke",
+          "12":"Lingots de fer",
+          "13":"Sel",
+          "14":"Sable",
+          "15":"Bois",
+          "16":"Sciures/copeaux de bois",
+          "17":"Ferraille",
+          "18":"Gaz naturel liquefie (LNG)",
+          "19":"Gaz de petrole liquefi&eacute; (LPG)",
+          "20":"Vin",
+          "21":"Ciment",
+          "22":"C&eacute;reales, grains",
+          "501":"oil: crude and refined",
+          "502":"solid fuel",
+          "503":"flammable liquids and gases",
+          "504":"chemicals",
+          "505":"ferrous elements and ores: unrefined and refined",
+          "506":"non-ferrous elements and ores: unrefined and refined",
+          "507":"metal: concentrate and products",
+          "508":"minerals",
+          "509":"fertiliser: natural and products",
+          "510":"wood: unprocessed and products",
+          "511":"rubber",
+          "512":"clay products",
+          "513":"natural fibres and materials in general: unprocessed and products",
+          "514":"foodstuffs: solid",
+          "515":"foodstuffs: liquid",
+          "516":"foodstuffs: preserved",
+          "517":"general and mixed goods",
+          "518":"stone",
+          "519":"granular or powdery material",
+          "520":"machinery and mechanical parts",
+          "521":"construction materials",
+          "522":"vehicles",
+          "523":"aircraft",
+          "524":"railway: stock and construction materials",
+          "525":"portable buildings",
+          "526":"containers",
+          "527":"electronics",
+          "528":"plastic",
+          "529":"paint",
+          "530":"refuse and waste",
+          "531":"radioactive material",
+          "532":"armament",
+          "533":"personnel",
+          "534":"animals (land &amp; sea) and birds",
+          "535":"fish",
+          "536":"shellfish and crustaceans",
+          "537":"ballast",
+          "540":"diesel oil",
+          "541":"petrol/gasoline",
+          "542":"passengers",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "PUBREF":{
+          "0":"R&eacute;f&eacute;rence &agrave; une publication"
+       },
+       "PUNITS":{
+          "0":"Positional accuracy units",
+          "1":"M&egrave;tres",
+          "2":"degrees of arc",
+          "3":"Millim&egrave;tres",
+          "4":"feet",
+          "5":"cables"
+       },
+       "QUAPOS":{
+          "0":"Qualit&eacute; de la position",
+          "1":"Relev&eacute;e",
+          "2":"Non relev&eacute;e",
+          "3":"Relev&eacute;e avec peu de pr&eacute;cision",
+          "4":"Approximative",
+          "5":"Position douteuse",
+          "6":"Incertaine",
+          "7":"Signal&eacute; (n'a pas fait l'objet d'un lev&eacute;)",
+          "8":"Signal&eacute; (non confirm&eacute;)",
+          "9":"Estim&eacute;e",
+          "10":"Pr&eacute;cisemment connue",
+          "11":"Calcul&eacute;e",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "QUASOU":{
+          "0":"Qualit&eacute; de la mesure de la sonde",
+          "1":"Profondeur connue",
+          "2":"Profondeur inconnue",
+          "3":"Sonde douteuse",
+          "4":"Sonde incertaine",
+          "5":"Pas trouv&eacute; le fond &agrave; la valeur indiqu&eacute;e",
+          "6":"Brassiage connu",
+          "7":"Brassiage inconnu, mais estim&eacute; sup&eacute;rieur &agrave; la valeur indiqu&eacute;e",
+          "8":"Valeur signal&eacute;e (n'a pas fait l'objet d'un lev&eacute;)",
+          "9":"Valeur signal&eacute;e (non confirm&eacute;e)",
+          "10":"Profondeur entretenue",
+          "11":"Profondeur irreguli&egrave;rement entretenue",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "RADIUS":{
+          "0":"Rayon"
+       },
+       "RADWAL":{
+          "0":"Longueur d'onde radar"
+       },
+       "RECDAT":{
+          "0":"Recording date"
+       },
+       "RECIND":{
+          "0":"Recording indication"
+       },
+       "RESTRN":{
+          "0":"Restriction",
+          "1":"Mouillage interdit",
+          "2":"Mouillage r&eacute;glement&eacute;",
+          "3":"Pêche interdite",
+          "4":"Pêche r&eacute;glement&eacute;e",
+          "5":"Chalutage interdit",
+          "6":"Chalutage r&eacute;glement&eacute;",
+          "7":"Entr&eacute;e interdite",
+          "8":"Entr&eacute;e r&eacute;glement&eacute;e",
+          "9":"Dragage interdit",
+          "10":"Dragage r&eacute;glement&eacute;",
+          "11":"Plong&eacute;e interdite",
+          "12":"Plong&eacute;e r&eacute;glement&eacute;e",
+          "13":"Sillage excessif interdit",
+          "14":"Zone &agrave; &eacute;viter",
+          "15":"Construction interdite",
+          "16":"D&eacute;chargement interdit",
+          "17":"D&eacute;chargement r&eacute;glement&eacute;",
+          "18":"Exploration/exploitation industrielle/min&eacute;rale interdite",
+          "19":"Exploration/exploitation industrielle/min&eacute;rale r&eacute;glement&eacute;e",
+          "20":"Forage interdit",
+          "21":"Forage r&eacute;glement&eacute;",
+          "22":"Pr&eacute;l&egrave;vement de vestiges historiques interdit",
+          "23":"Transbordement interdit",
+          "24":"Remorquage sur le fond interdit",
+          "25":"Stationnement interdit",
+          "26":"D&eacute;barquement interdit",
+          "27":"Vitesse r&eacute;glement&eacute;e",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "RYRMGV":{
+          "0":"Ann&eacute;e de r&eacute;f&eacute;rence pour la d&eacute;clinaison magn&eacute;tique"
+       },
+       "SCAMAX":{
+          "0":"Scale maximum"
+       },
+       "SCAMIN":{
+          "0":"Scale minimum"
+       },
+       "SCVAL1":{
+          "0":"Plus grande valeur d'&eacute;chelle"
+       },
+       "SCVAL2":{
+          "0":"Plus petite valeur d'&eacute;chelle"
+       },
+       "SDISMN":{
+          "0":"Espacement minimal entre les profils de sondes"
+       },
+       "SDISMX":{
+          "0":"Espacement maximal entre les profils de sondes"
+       },
+       "SECTR1":{
+          "0":"Limite de d&eacute;but de secteur"
+       },
+       "SECTR2":{
+          "0":"Limite de fin de secteur"
+       },
+       "SHIPAM":{
+          "0":"Param&egrave;tres de correction"
+       },
+       "SIGFRQ":{
+          "0":"Fr&eacute;quence du signal"
+       },
+       "SIGGEN":{
+          "0":"G&eacute;n&eacute;ration du signal",
+          "1":"Automatique",
+          "2":"Actionn&eacute; par la houle",
+          "3":"Actionn&eacute; manuellement",
+          "4":"Actionn&eacute; par le vent"
+       },
+       "SIGGRP":{
+          "0":"Groupement de signaux"
+       },
+       "SIGPER":{
+          "0":"P&eacute;riode du signal"
+       },
+       "SIGSEQ":{
+          "0":"S&eacute;quence du signal"
+       },
+       "SORDAT":{
+          "0":"Date de la source"
+       },
+       "SORIND":{
+          "0":"Indication de la source"
+       },
+       "SOUACC":{
+          "0":"Pr&eacute;cision des sondes"
+       },
+       "STATUS":{
+          "0":"Etat",
+          "1":"Permanent",
+          "2":"Occasionnel",
+          "3":"Recommand&eacute;",
+          "4":"Non utilis&eacute;, d&eacute;saffect&eacute;",
+          "5":"P&eacute;riodique/intermittent",
+          "6":"R&eacute;serv&eacute;",
+          "7":"Temporaire",
+          "8":"Priv&eacute;",
+          "9":"Obligatoire",
+          "10":"{destroyed/ruined}",
+          "11":"Eteint",
+          "12":"Illumin&eacute;",
+          "13":"Historique",
+          "14":"Public",
+          "15":"Synchronise",
+          "16":"Gard&eacute;",
+          "17":"Non gard&eacute;",
+          "18":"Existence douteuse",
+          "501":"active/in use",
+          "502":"claimed",
+          "503":"practice and/or exercise purposes",
+          "504":"recognised",
+          "505":"dead",
+          "506":"lifted",
+          "507":"mass grave",
+          "508":"exploration",
+          "509":"production",
+          "510":"suspended",
+          "511":"injection",
+          "512":"unspecified",
+          "513":"disputed",
+          "514":"designated",
+          "515":"on request",
+          "516":"dormant",
+          "517":"proposed",
+          "518":"abandoned",
+          "519":"grey zone",
+          "520":"indeterminate",
+          "521":"multilateral",
+          "522":"rules for transit passage apply",
+          "523":"voluntary",
+          "701":"UNKNOWN",
+          "702":"Multiple",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "SURATH":{
+          "0":"Autorit&eacute; du lev&eacute;"
+       },
+       "SUREND":{
+          "0":"Date de fin de lev&eacute;"
+       },
+       "SURSTA":{
+          "0":"Date de d&eacute;but de lev&eacute;"
+       },
+       "SURTYP":{
+          "0":"Type de lev&eacute;",
+          "1":"Lev&eacute; de reconnaissance",
+          "2":"Lev&eacute; r&eacute;gulier",
+          "3":"{unsurveyed}",
+          "4":"Lev&eacute; complet",
+          "5":"Lev&eacute; en transit",
+          "6":"T&eacute;l&eacute;d&eacute;tection",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "TECSOU":{
+          "0":"Technique de mesure de la sonde",
+          "1":"D&eacute;termin&eacute; par &eacute;cho-sondeur",
+          "2":"D&eacute;termin&eacute; par sondeur lateral",
+          "3":"D&eacute;termin&eacute; par sondeur multi-faisceaux",
+          "4":"D&eacute;termin&eacute; par plongeur",
+          "5":"D&eacute;termin&eacute; par sondage au plomb",
+          "6":"Contr&ocirc;l&eacute; &agrave; la drague hydrographique",
+          "7":"D&eacute;termin&eacute; par laser",
+          "8":"Contr&ocirc;l&eacute; par systeme accoustique vertical",
+          "9":"D&eacute;termin&eacute; par sondeur &eacute;lectromagnetique",
+          "10":"Photogrammetrie",
+          "11":"Imagerie satellitaire",
+          "12":"D&eacute;termin&eacute; par nivellement",
+          "13":"Contr&ocirc;l&eacute; au sondeur lateral",
+          "14":"G&eacute;n&eacute;r&eacute; par informatique",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "TIMEND":{
+          "0":"Date et heure de fin"
+       },
+       "TIMSTA":{
+          "0":"Date et heure de d&eacute;but"
+       },
+       "TOPSHP":{
+          "0":"Forme de voyant/marque de jour",
+          "1":"C&ocirc;ne, pointe en haut",
+          "2":"C&ocirc;ne, pointe en bas",
+          "3":"Sph&egrave;re",
+          "4":"Deux sph&egrave;res",
+          "5":"Cylindre",
+          "6":"Panneau",
+          "7":"En forme de X (Croix de St. Andr&eacute;)",
+          "8":"Croix verticale (Croix de St. George)",
+          "9":"Cube, angle en haut",
+          "10":"Deux c&ocirc;nes, pointes oppos&eacute;es",
+          "11":"Deux c&ocirc;nes, bases oppos&eacute;es",
+          "12":"Losange (diamant)",
+          "13":"Deux c&ocirc;nes, pointes en haut",
+          "14":"Deux c&ocirc;nes, pointes en bas",
+          "15":"Balais, brins en haut",
+          "16":"Balais, brins en bas",
+          "17":"Drapeau",
+          "18":"Sph&egrave;re au dessus d'un losange",
+          "19":"Carr&eacute;",
+          "20":"Rectangle horizontal",
+          "21":"Rectangle vertical",
+          "22":"Trap&egrave;ze, petite base en haut",
+          "23":"Trap&egrave;ze, petite base en bas",
+          "24":"Triangle, pointe en haut",
+          "25":"Triangle, pointe en bas",
+          "26":"Cercle",
+          "27":"Deux croix verticales (l'une au dessus de l'autre)",
+          "28":"En forme de T",
+          "29":"Triangle, pointe en haut, au dessus d'un cercle",
+          "30":"Croix verticale au dessus d'un cercle",
+          "31":"Losange au dessus d'un cercle",
+          "32":"Cercle au dessus d'un triangle, pointe en haut",
+          "33":"Autre forme (voir INFORM)"
+       },
+       "TRAFIC":{
+          "0":"Direction du trafic",
+          "1":"Entrant",
+          "2":"Sortant",
+          "3":"Sens unique",
+          "4":"Double sens",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "TS_TSP":{
+          "0":"Courant de mar&eacute;e - Valeurs du tableau"
+       },
+       "TS_TSV":{
+          "0":"Courant de mar&eacute;e, courant general - S&eacute;ries chronologiques de valeurs"
+       },
+       "TXTDSC":{
+          "0":"Texte descriptif"
+       },
+       "T_ACWL":{
+          "0":"Mar&eacute;e - Pr&eacute;cision des valeurs du niveau de l'eau",
+          "1":"Plus precis que 0.1 metre et que 10 minutes",
+          "2":"Moins precis que 0.1 metre et que 10 minutes"
+       },
+       "T_HWLW":{
+          "0":"Mar&eacute;e - Valeurs en pleines et basses mers"
+       },
+       "T_MTOD":{
+          "0":"Mar&eacute;e - M&eacute;thode de pr&eacute;diction de la mar&eacute;e",
+          "1":"M&eacute;thode harmonique simplifi&eacute;e pour la pr&eacute;diction de la mar&eacute;e",
+          "2":"M&eacute;thode harmonique compl&egrave;te pour la pr&eacute;diction de la mar&eacute;e",
+          "3":"M&eacute;thode non harmonique (diff&eacute;rences d'heures et de hauteurs)",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "T_THDF":{
+          "0":"Mar&eacute;e - Differences d'heures et de hauteurs"
+       },
+       "T_TINT":{
+          "0":"Mar&eacute;e, courant - Intervalles de temps entre les valeurs"
+       },
+       "T_TSVL":{
+          "0":"Mar&eacute;e - S&eacute;ries chronologiques de valeurs"
+       },
+       "T_VAHC":{
+          "0":"Mar&eacute;e - Valeur des constantes harmoniques"
+       },
+       "VALACM":{
+          "0":"Valeur du changement annuel de la d&eacute;clinaison magn&eacute;tique"
+       },
+       "VALDCO":{
+          "0":"Cote de l'isobathe"
+       },
+       "VALLMA":{
+          "0":"Valeur de l'anomalie magn&eacute;tique locale"
+       },
+       "VALMAG":{
+          "0":"Valeur de la d&eacute;clinaison magn&eacute;tique"
+       },
+       "VALMXR":{
+          "0":"Port&eacute;e maximale"
+       },
+       "VALNMR":{
+          "0":"Port&eacute;e nominale"
+       },
+       "VALSOU":{
+          "0":"Valeur de la sonde"
+       },
+       "VERACC":{
+          "0":"Pr&eacute;cision verticale"
+       },
+       "VERCCL":{
+          "0":"Tirant d'air, ferm&eacute;"
+       },
+       "VERCLR":{
+          "0":"Tirant d'air"
+       },
+       "VERCOP":{
+          "0":"Tirant d'air, ouvert"
+       },
+       "VERCSA":{
+          "0":"Tirant d'air de s&eacute;curit&eacute;"
+       },
+       "VERDAT":{
+          "0":"Niveau de r&eacute;f&eacute;rence",
+          "0_":"Vertical Datum is not applicable",
+          "1":"Basse mer moyenne de vive-eau",
+          "2":"Moyenne des basses mers inf&eacute;rieures de vive-eau",
+          "3":"Niveau moyen",
+          "4":"Niveau des plus basses mers",
+          "5":"Basse mer (moyenne)",
+          "6":"Niveau des plus basses mers de vive-eau",
+          "7":"Niveau approximatif des basses mers moyennes de vive-eau",
+          "8":"Basse mer de vive-eau dite des Indes",
+          "9":"Basses mers de vive-eau",
+          "10":"Niveau approximatif des plus basses mers astronomiques",
+          "11":"Niveau voisin de celui des plus basses mers",
+          "12":"Moyenne des basses mers inferieures",
+          "13":"Basse mer",
+          "14":"Niveau approximatif de la moyenne des basses mers moyennes",
+          "15":"Niveau approximatif des basses mers inferieures",
+          "16":"Pleine mer moyenne",
+          "17":"Pleine mer moyenne de vive-eau",
+          "18":"Pleine mer",
+          "19":"Niveau moyen approximatif",
+          "20":"Pleine mer de vive-eau",
+          "21":"Moyenne des pleines mers superieures",
+          "22":"Basse mer de vive-eau d'&eacute;quinoxe",
+          "23":"Niveau des plus basses mers astronomiques",
+          "24":"Niveau de reference local",
+          "25":"International Great Lakes Datum 1985",
+          "26":"Niveau de mi-mar&eacute;e",
+          "27":"Basse mer inf&eacute;rieure des grandes mar&eacute;es",
+          "28":"Pleine mer sup&eacute;rieure des grandes mar&eacute;es",
+          "29":"Niveau voisin de celui des plus hautes mers",
+          "30":"Niveau des plus hautes mers astronomiques",
+          "255":"Vertical Datum does not apply",
+          "501":"Mean Tide Level",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "VERLEN":{
+          "0":"Hauteur au dessus du sol"
+       },
+       "WATLEV":{
+          "0":"Position par rapport au z&eacute;ro des sondes",
+          "1":"Partiellement submerg&eacute; &agrave; pleine mer",
+          "2":"Toujours d&eacute;couvert",
+          "3":"Toujours submerg&eacute;",
+          "4":"Couvre et d&eacute;couvre",
+          "5":"A fleur d'eau",
+          "6":"Sujet &agrave; des inondations",
+          "7":"Flottant",
+          "701":"UNKNOWN",
+          "703":"Not Applicable",
+          "704":"Autre"
+       },
+       "CHARS":{
+          "0":"Character specification"
+       },
+       "CSIZE":{
+          "0":"Compass size"
+       },
+       "JUSTH":{
+          "0":"Justification - horizontal",
+          "1":"centre justified: position refers to the centre of the text string.",
+          "2":"right justified: position refers to the right side of last character in text string.",
+          "3":"left justified: position refers to the left side of first character of text string."
+       },
+       "JUSTV":{
+          "0":"Justification - vertical",
+          "1":"bottom justified: position refers to the bottom of the text string.",
+          "2":"centre justified: position refers to the centre of the text string.",
+          "3":"top justified: position refers to the top of the text string."
+       },
+       "SCALE":{
+          "0":"Symbol scaling factor"
+       },
+       "SCODE":{
+          "0":"Symbolization code"
+       },
+       "SPACE":{
+          "0":"Character spacing",
+          "1":"expanded/condensed",
+          "2":"standard"
+       },
+       "TINTS":{
+          "0":"Tint",
+          "1":"darkest blue (e.g. 0-5m)",
+          "2":"medium blue (e.g. 5-10m)",
+          "3":"lightest blue (e.g. 10-15m)"
+       },
+       "TXSTR":{
+          "0":"Text string"
+       },
+       "CLSDEF":{
+          "0":"Object Class Definition"
+       },
+       "CLSNAM":{
+          "0":"Object Class Name"
+       },
+       "SYMINS":{
+          "0":"Symbol Instruction"
+       },
+       "ACHARE":{
+          "0":"Zone de mouillage"
+       },
+       "ACHBRT":{
+          "0":"Poste de mouillage"
+       },
+       "ADMARE":{
+          "0":"Zone administrative (nomm&eacute;e)"
+       },
+       "AIRARE":{
+          "0":"Zone d'a&eacute;roport/a&eacute;rodrome"
+       },
+       "BCNCAR":{
+          "0":"Balise cardinale"
+       },
+       "BCNISD":{
+          "0":"Balise de danger isol&eacute;"
+       },
+       "BCNLAT":{
+          "0":"Balise lat&eacute;rale"
+       },
+       "BCNSAW":{
+          "0":"Balise d'eaux saines"
+       },
+       "BCNSPP":{
+          "0":"Balise, marque sp&eacute;ciale/g&eacute;n&eacute;rale"
+       },
+       "BERTHS":{
+          "0":"Poste d'amarrage"
+       },
+       "BOYCAR":{
+          "0":"Bou&eacute;e cardinale"
+       },
+       "BOYINB":{
+          "0":"Bou&eacute;e de chargement"
+       },
+       "BOYISD":{
+          "0":"Bou&eacute;e de danger isol&eacute;"
+       },
+       "BOYLAT":{
+          "0":"Bou&eacute;e lat&eacute;rale"
+       },
+       "BOYSAW":{
+          "0":"Bou&eacute;e d'eaux saines"
+       },
+       "BOYSPP":{
+          "0":"Bou&eacute;e, marque sp&eacute;ciale/g&eacute;n&eacute;rale"
+       },
+       "BRIDGE":{
+          "0":"Pont"
+       },
+       "BUAARE":{
+          "0":"Zone bâtie"
+       },
+       "BUISGL":{
+          "0":"Batiment isol&eacute;"
+       },
+       "CANALS":{
+          "0":"Canal"
+       },
+       "CANBNK":{
+          "0":"Canal bank"
+       },
+       "CAUSWY":{
+          "0":"Chauss&eacute;e"
+       },
+       "CBLARE":{
+          "0":"Zone de câbles"
+       },
+       "CBLOHD":{
+          "0":"Câble a&eacute;rien"
+       },
+       "CBLSUB":{
+          "0":"Câble sous-marin"
+       },
+       "CGUSTA":{
+          "0":"S&eacute;maphore, station de garde-c&ocirc;te"
+       },
+       "CHKPNT":{
+          "0":"Poste de contr&ocirc;le"
+       },
+       "COALNE":{
+          "0":"Trait de c&ocirc;te"
+       },
+       "CONVYR":{
+          "0":"Transporteur"
+       },
+       "CONZNE":{
+          "0":"Zone contigüe"
+       },
+       "COSARE":{
+          "0":"Plateau continental"
+       },
+       "CRANES":{
+          "0":"Grue"
+       },
+       "CTNARE":{
+          "0":"Zone où l'on doit naviguer avec prudence"
+       },
+       "CTRPNT":{
+          "0":"Point de rep&egrave;re (topograghique)"
+       },
+       "CTSARE":{
+          "0":"Zone de transbordement de cargaison"
+       },
+       "CURENT":{
+          "0":"Courant g&eacute;n&eacute;ral (non dû &agrave; la mar&eacute;e)"
+       },
+       "CUSZNE":{
+          "0":"Zone de douane"
+       },
+       "DAMCON":{
+          "0":"Barrage"
+       },
+       "DAYMAR":{
+          "0":"Marque de jour"
+       },
+       "DEPARE":{
+          "0":"Zone de profondeurs"
+       },
+       "DEPCNT":{
+          "0":"Isobathe"
+       },
+       "DISMAR":{
+          "0":"Marque de distance"
+       },
+       "DMPGRD":{
+          "0":"Zone de d&eacute;p&ocirc;t"
+       },
+       "DOCARE":{
+          "0":"Bassin"
+       },
+       "DRGARE":{
+          "0":"Zone dragu&eacute;e"
+       },
+       "DRYDOC":{
+          "0":"Forme de radoub"
+       },
+       "DWRTCL":{
+          "0":"Axe de route en eau profonde"
+       },
+       "DWRTPT":{
+          "0":"Troncon de route en eau profonde"
+       },
+       "DYKCON":{
+          "0":"Digue"
+       },
+       "EXEZNE":{
+          "0":"Zone &eacute;conomique exclusive"
+       },
+       "FAIRWY":{
+          "0":"Chenal"
+       },
+       "FERYRT":{
+          "0":"Passage de navires-transbordeurs"
+       },
+       "FLODOC":{
+          "0":"Dock flottant"
+       },
+       "FNCLNE":{
+          "0":"Barri&egrave;re, mur"
+       },
+       "FOGSIG":{
+          "0":"Signal de brume"
+       },
+       "FORSTC":{
+          "0":"Fortification, fort"
+       },
+       "FRPARE":{
+          "0":"Port franc"
+       },
+       "FSHFAC":{
+          "0":"Installation de pêche"
+       },
+       "FSHGRD":{
+          "0":"Lieu de pêche"
+       },
+       "FSHZNE":{
+          "0":"Zone de pêche (r&eacute;glementation)"
+       },
+       "GATCON":{
+          "0":"Porte (&eacute;cluse,bassin)"
+       },
+       "GRIDRN":{
+          "0":"Gril de car&eacute;nage"
+       },
+       "HRBARE":{
+          "0":"Zone portuaire (administrative)"
+       },
+       "HRBFAC":{
+          "0":"Fonction du port (pêche, plaisance, ...)"
+       },
+       "HULKES":{
+          "0":"Ponton (navire d&eacute;sarm&eacute;)"
+       },
+       "ICEARE":{
+          "0":"Zone de glace"
+       },
+       "ICNARE":{
+          "0":"Zone d'incin&eacute;ration"
+       },
+       "ISTZNE":{
+          "0":"Zone de navigation c&ocirc;ti&egrave;re"
+       },
+       "LAKARE":{
+          "0":"Lac"
+       },
+       "LAKSHR":{
+          "0":"Lake shore"
+       },
+       "LIGHTS":{
+          "0":"Feu"
+       },
+       "LITFLT":{
+          "0":"Feu flottant"
+       },
+       "LITVES":{
+          "0":"Bateau feu"
+       },
+       "LNDARE":{
+          "0":"Zone terrestre"
+       },
+       "LNDELV":{
+          "0":"Altitude terrestre (point cot&eacute; ou isohypse)"
+       },
+       "LNDMRK":{
+          "0":"Amer"
+       },
+       "LNDRGN":{
+          "0":"R&eacute;gion terrestre (paysage naturel)"
+       },
+       "LOCMAG":{
+          "0":"Anomalie magn&eacute;tique locale"
+       },
+       "LOGPON":{
+          "0":"Panne"
+       },
+       "LOKBSN":{
+          "0":"Sas d'&eacute;cluse"
+       },
+       "MAGVAR":{
+          "0":"D&eacute;clinaison magn&eacute;tique"
+       },
+       "MARCUL":{
+          "0":"Ferme marine"
+       },
+       "MIPARE":{
+          "0":"Zone d'exercice militaire"
+       },
+       "MORFAC":{
+          "0":"Dispositif d'amarrage"
+       },
+       "NAVLNE":{
+          "0":"Alignement ou rel&egrave;vement"
+       },
+       "OBSTRN":{
+          "0":"Obstruction"
+       },
+       "OFSPLF":{
+          "0":"Plate-forme en mer"
+       },
+       "OILBAR":{
+          "0":"Barrage anti-pollution"
+       },
+       "OSPARE":{
+          "0":"Zone d'exploitation en mer"
+       },
+       "PILBOP":{
+          "0":"Lieu d'embarquement du pilote"
+       },
+       "PILPNT":{
+          "0":"Pile, pilier"
+       },
+       "PIPARE":{
+          "0":"Zone de conduites"
+       },
+       "PIPOHD":{
+          "0":"Canalisation a&eacute;rienne"
+       },
+       "PIPSOL":{
+          "0":"Conduite sous-marine/&agrave; terre"
+       },
+       "PONTON":{
+          "0":"Ponton (appontement flottant)"
+       },
+       "PRCARE":{
+          "0":"Zone de prudence"
+       },
+       "PRDARE":{
+          "0":"Zone de production/stockage"
+       },
+       "PYLONS":{
+          "0":"Pyl&ocirc;ne/pile de pont"
+       },
+       "RADLNE":{
+          "0":"Ligne de r&eacute;f&eacute;rence radar"
+       },
+       "RADRFL":{
+          "0":"R&eacute;flecteur radar"
+       },
+       "RADRNG":{
+          "0":"Limite de port&eacute;e radar"
+       },
+       "RADSTA":{
+          "0":"Station radar"
+       },
+       "RAILWY":{
+          "0":"Voie ferr&eacute;e"
+       },
+       "RAPIDS":{
+          "0":"Rapides"
+       },
+       "RCRTCL":{
+          "0":"Axe de route recommand&eacute;e"
+       },
+       "RCTLPT":{
+          "0":"Zone avec direction recommand&eacute;e du trafic"
+       },
+       "RDOCAL":{
+          "0":"Point d'appel radio"
+       },
+       "RDOSTA":{
+          "0":"Station radio, radiophare"
+       },
+       "RECTRC":{
+          "0":"Voie recommand&eacute;e"
+       },
+       "RESARE":{
+          "0":"Zone de restriction"
+       },
+       "RETRFL":{
+          "0":"R&eacute;tror&eacute;flecteur"
+       },
+       "RIVBNK":{
+          "0":"River bank"
+       },
+       "RIVERS":{
+          "0":"Rivi&egrave;re"
+       },
+       "ROADWY":{
+          "0":"Route"
+       },
+       "RSCSTA":{
+          "0":"Station de sauvetage"
+       },
+       "RTPBCN":{
+          "0":"Balise r&eacute;pondeuse radar"
+       },
+       "RUNWAY":{
+          "0":"Piste (atterrissage/envol)"
+       },
+       "SBDARE":{
+          "0":"Zone de nature de fond"
+       },
+       "SEAARE":{
+          "0":"Zone maritime (nomm&eacute;e)"
+       },
+       "SILTNK":{
+          "0":"Silo/r&eacute;servoir"
+       },
+       "SISTAT":{
+          "0":"Station de signaux de trafic"
+       },
+       "SISTAW":{
+          "0":"Station de signaux d'avertissement"
+       },
+       "SLCONS":{
+          "0":"Trait de c&ocirc;te artificiel"
+       },
+       "SLOGRD":{
+          "0":"D&eacute;clivite"
+       },
+       "SLOTOP":{
+          "0":"Crête de falaise"
+       },
+       "SMCFAC":{
+          "0":"Installation pour embarcations"
+       },
+       "SNDWAV":{
+          "0":"Fonds mobiles, ridens"
+       },
+       "SOUNDG":{
+          "0":"Sonde"
+       },
+       "SPLARE":{
+          "0":"Zone d'amerrissage pour hydravions"
+       },
+       "SPRING":{
+          "0":"Source"
+       },
+       "SQUARE":{
+          "0":"Square"
+       },
+       "STSLNE":{
+          "0":"Ligne de base droite"
+       },
+       "SUBTLN":{
+          "0":"Couloir de transit pour sous-marins"
+       },
+       "SWPARE":{
+          "0":"Zone v&eacute;rifi&eacute;e"
+       },
+       "TESARE":{
+          "0":"Mer territoriale"
+       },
+       "TIDEWY":{
+          "0":"Lit de courants de mar&eacute;e"
+       },
+       "TOPMAR":{
+          "0":"Voyant"
+       },
+       "TSELNE":{
+          "0":"Ligne de s&eacute;paration du trafic"
+       },
+       "TSEZNE":{
+          "0":"Zone de s&eacute;paration du trafic"
+       },
+       "TSSBND":{
+          "0":"Limite de dispositif de s&eacute;paration du trafic"
+       },
+       "TSSCRS":{
+          "0":"Croisement de dispositif de s&eacute;paration du trafic"
+       },
+       "TSSLPT":{
+          "0":"Troncon de dispositif de s&eacute;paration du trafic"
+       },
+       "TSSRON":{
+          "0":"Rond-point de dispositif de s&eacute;paration du trafic"
+       },
+       "TS_FEB":{
+          "0":"Courant de mar&eacute;e (flot/jusant)"
+       },
+       "TS_PAD":{
+          "0":"Tableau de donn&eacute;es sur les courants de mar&eacute;e"
+       },
+       "TS_PNH":{
+          "0":"Tidal stream - non harmonic prediction"
+       },
+       "TS_PRH":{
+          "0":"Courant de mar&eacute;e - Pr&eacute;diction par m&eacute;thodes harmoniques"
+       },
+       "TS_TIS":{
+          "0":"Courant de mar&eacute;e - S&eacute;ries chronologiques"
+       },
+       "TUNNEL":{
+          "0":"Tunnel"
+       },
+       "TWRTPT":{
+          "0":"Troncon de route &agrave; double sens"
+       },
+       "T_HMON":{
+          "0":"Mar&eacute;e - Pr&eacute;diction par m&eacute;thode harmoniques"
+       },
+       "T_NHMN":{
+          "0":"Mar&eacute;e - Pr&eacute;diction par m&eacute;thode non harmoniques"
+       },
+       "T_TIMS":{
+          "0":"Maree - S&eacute;ries chronologiques"
+       },
+       "UNSARE":{
+          "0":"Zone non hydrographi&eacute;e"
+       },
+       "UWTROC":{
+          "0":"Roche sous marine/roche &agrave; fleur d'eau"
+       },
+       "VEGATN":{
+          "0":"V&eacute;g&eacute;tation"
+       },
+       "WATFAL":{
+          "0":"Cascade"
+       },
+       "WATTUR":{
+          "0":"Turbulence"
+       },
+       "WEDKLP":{
+          "0":"Algues, herbes marines"
+       },
+       "WRECKS":{
+          "0":"Epave"
+       },
+       "AREAS":{
+          "0":"Cartographic area"
+       },
+       "COMPS":{
+          "0":"Compass"
+       },
+       "CSYMB":{
+          "0":"Cartographic symbol"
+       },
+       "LINES":{
+          "0":"Cartographic line"
+       },
+       "TEXTS":{
+          "0":"Text"
+       },
+       "C_AGGR":{
+          "0":"Agr&eacute;gation"
+       },
+       "C_ASSO":{
+          "0":"Association"
+       },
+       "C_STAC":{
+          "0":"Stacked on/stacked under"
+       },
+       "M_ACCY":{
+          "0":"Pr&eacute;cision des donn&eacute;es"
+       },
+       "M_COVR":{
+          "0":"Couverture"
+       },
+       "M_CSCL":{
+          "0":"Echelle de compilation des donn&eacute;es"
+       },
+       "M_HDAT":{
+          "0":"Horizontal datum of data"
+       },
+       "M_HOPA":{
+          "0":"Param&egrave;tres de changement de syst&egrave;me g&eacute;od&eacute;sique"
+       },
+       "M_NPUB":{
+          "0":"Publication nautique (information)"
+       },
+       "M_NSYS":{
+          "0":"Syst&egrave;me de balisage"
+       },
+       "M_PROD":{
+          "0":"Production information"
+       },
+       "M_QUAL":{
+          "0":"Qualit&eacute; des donn&eacute;es"
+       },
+       "M_SDAT":{
+          "0":"Niveau de r&eacute;f&eacute;rence des sondes"
+       },
+       "M_SREL":{
+          "0":"Fiabilit&eacute; du lev&eacute;"
+       },
+       "M_UNIT":{
+          "0":"Units of measurement of data"
+       },
+       "M_VDAT":{
+          "0":"Niveau de r&eacute;f&eacute;rence des altitudes"
+       },
+       "ARCSLN":{
+          "0":"Archipelagic Sea Lane"
+       },
+       "ASLXIS":{
+          "0":"Archipelagic Sea Lane Axis"
+       },
+       "NEWOBJ":{
+          "0":"New Object"
+       }
+    }

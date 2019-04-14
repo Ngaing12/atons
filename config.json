@@ -1,0 +1,21 @@
+{
+  "options": {
+    "paths": {
+      "sprites": "sprites"
+    }
+  },
+  "styles": {
+    "atons": {
+      "style": "styles/atons.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [-180, -90, 180, 90]
+      }
+    }
+  },
+  "data": {
+    "atons": {
+      "mbtiles": "mbtiles/atons.mbtiles"
+    }
+  }
+}

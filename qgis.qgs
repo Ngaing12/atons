@@ -1,0 +1,1124 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.4-Madeira" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo-Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer source="./data/atons.geojson" providerKey="ogr" checked="Qt::Checked" name="atons.geojson" id="atons_fbb35fb7_241b_4460_9f7d_67628df2e4e4" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=atons&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=http://localhost:8081/styles/atons/wmts.xml" providerKey="wms" checked="Qt::Checked" name="Local WMTS : ATONs" id="Shom___Balisage_2019_5831e861_3470_4a96_a321_d43ebd3371c9" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:4326&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=BALISAGE_BDD_WMSV&amp;styles&amp;url=https://services.data.shom.fr/INSPIRE/wms/v?version%3D1.3.0" providerKey="wms" checked="Qt::Checked" name="Data.shom.fr WMTS : BALISAGE BDD WMSV7" id="BALISAGE_BDD_WMSV7__WMTS_data_shom_fr__4a05344a_d33d_4fdc_b574_c11d85d81a92" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>Shom___Balisage_2019_5831e861_3470_4a96_a321_d43ebd3371c9</item>
+      <item>atons_fbb35fb7_241b_4460_9f7d_67628df2e4e4</item>
+      <item>BALISAGE_BDD_WMSV7__WMTS_data_shom_fr__4a05344a_d33d_4fdc_b574_c11d85d81a92</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings enabled="0" tolerance="12" unit="1" type="1" intersection-snapping="0" mode="2">
+    <individual-layer-settings>
+      <layer-setting enabled="0" tolerance="12" type="1" id="atons_fbb35fb7_241b_4460_9f7d_67628df2e4e4" units="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>-498172.7331936804112047</xmin>
+      <ymin>6166057.56123905442655087</ymin>
+      <xmax>-491888.93595314968843013</xmax>
+      <ymax>6173443.3638558778911829</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer open="true" checked="Qt::Checked" name="atons.geojson" showFeatureCount="0" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="atons_fbb35fb7_241b_4460_9f7d_67628df2e4e4" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" checked="Qt::Checked" name="Local WMTS : ATONs" showFeatureCount="0" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Shom___Balisage_2019_5831e861_3470_4a96_a321_d43ebd3371c9" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer open="true" checked="Qt::Checked" name="Data.shom.fr WMTS : BALISAGE BDD WMSV7" showFeatureCount="0" drawingOrder="-1">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="BALISAGE_BDD_WMSV7__WMTS_data_shom_fr__4a05344a_d33d_4fdc_b574_c11d85d81a92" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer autoRefreshEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" type="raster" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>-5.75740000089831394</xmin>
+        <ymin>41.30992887808324809</ymin>
+        <xmax>9.64745000000002584</xmax>
+        <ymax>51.39810250000000025</ymax>
+      </extent>
+      <id>BALISAGE_BDD_WMSV7__WMTS_data_shom_fr__4a05344a_d33d_4fdc_b574_c11d85d81a92</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:4326&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=BALISAGE_BDD_WMSV&amp;styles&amp;url=https://services.data.shom.fr/INSPIRE/wms/v?version%3D1.3.0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Data.shom.fr WMTS : BALISAGE BDD WMSV7</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxy="0" maxx="0" maxz="0" miny="0" minz="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Html" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandcolordata" alphaBand="-1" band="1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeBlue="128" saturation="0" colorizeStrength="100" grayscaleMode="0" colorizeOn="0" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" type="raster" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278977662324905</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278976917266846</ymax>
+      </extent>
+      <id>Shom___Balisage_2019_5831e861_3470_4a96_a321_d43ebd3371c9</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=atons&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=http://localhost:8081/styles/atons/wmts.xml</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Local WMTS : ATONs</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxy="0" maxx="0" maxz="0" miny="0" minz="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandcolordata" alphaBand="-1" band="1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeBlue="128" saturation="0" colorizeStrength="100" grayscaleMode="0" colorizeOn="0" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" geometry="Point" maxScale="0" simplifyDrawingHints="0" readOnly="0" simplifyAlgorithm="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" simplifyMaxScale="1">
+      <extent>
+        <xmin>-5.75739999999999963</xmin>
+        <ymin>41.31040000000000134</ymin>
+        <xmax>9.64744999999999919</xmax>
+        <ymax>51.39810250000000025</ymax>
+      </extent>
+      <id>atons_fbb35fb7_241b_4460_9f7d_67628df2e4e4</id>
+      <datasource>./data/atons.geojson</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>atons.geojson</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" maxy="0" maxx="0" maxz="0" miny="0" minz="0" minx="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" type="marker" name="0" clip_to_extent="1" force_rhr="0">
+            <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="183,72,75,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory rotationOffset="270" backgroundAlpha="255" maxScaleDenominator="1e+08" penAlpha="255" barWidth="5" enabled="0" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" scaleDependency="Area" labelPlacementMethod="XHeight" penWidth="0" sizeScale="3x:0,0,0,0,0,0" height="15" backgroundColor="#ffffff" minScaleDenominator="0" minimumSize="0" scaleBasedVisibility="0" width="15" opacity="1" penColor="#000000" sizeType="MM">
+          <fontProperties style="" description=".SF NS Text,13,-1,5,50,0,0,0,0,0"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" zIndex="0" obstacle="0" showAll="1" dist="0" placement="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="inspireid">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="posacc">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="objnam">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="numald">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="topmar">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fogsig">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="radrfl">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="retrfl">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="radsta">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rtpbcn">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="rdosta">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sistat">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sistaw">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lights">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bcnshp">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="catcam">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="colour">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="height">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="objl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="icon">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="icon_objl">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="icon_fogsig">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="catlam">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="catspm">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="boyshp">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="catfor">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="valnmr">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sectr1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sectr2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="catlmk">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="functn">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="catmor">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aisfct">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="catple">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="buishp">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="catsil">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="inspireid"/>
+        <alias index="1" name="" field="posacc"/>
+        <alias index="2" name="" field="objnam"/>
+        <alias index="3" name="" field="numald"/>
+        <alias index="4" name="" field="topmar"/>
+        <alias index="5" name="" field="fogsig"/>
+        <alias index="6" name="" field="radrfl"/>
+        <alias index="7" name="" field="retrfl"/>
+        <alias index="8" name="" field="radsta"/>
+        <alias index="9" name="" field="rtpbcn"/>
+        <alias index="10" name="" field="rdosta"/>
+        <alias index="11" name="" field="sistat"/>
+        <alias index="12" name="" field="sistaw"/>
+        <alias index="13" name="" field="lights"/>
+        <alias index="14" name="" field="bcnshp"/>
+        <alias index="15" name="" field="catcam"/>
+        <alias index="16" name="" field="colour"/>
+        <alias index="17" name="" field="height"/>
+        <alias index="18" name="" field="objl"/>
+        <alias index="19" name="" field="icon"/>
+        <alias index="20" name="" field="icon_objl"/>
+        <alias index="21" name="" field="icon_fogsig"/>
+        <alias index="22" name="" field="catlam"/>
+        <alias index="23" name="" field="catspm"/>
+        <alias index="24" name="" field="boyshp"/>
+        <alias index="25" name="" field="catfor"/>
+        <alias index="26" name="" field="valnmr"/>
+        <alias index="27" name="" field="sectr1"/>
+        <alias index="28" name="" field="sectr2"/>
+        <alias index="29" name="" field="catlmk"/>
+        <alias index="30" name="" field="functn"/>
+        <alias index="31" name="" field="catmor"/>
+        <alias index="32" name="" field="aisfct"/>
+        <alias index="33" name="" field="catple"/>
+        <alias index="34" name="" field="buishp"/>
+        <alias index="35" name="" field="catsil"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="inspireid"/>
+        <default expression="" applyOnUpdate="0" field="posacc"/>
+        <default expression="" applyOnUpdate="0" field="objnam"/>
+        <default expression="" applyOnUpdate="0" field="numald"/>
+        <default expression="" applyOnUpdate="0" field="topmar"/>
+        <default expression="" applyOnUpdate="0" field="fogsig"/>
+        <default expression="" applyOnUpdate="0" field="radrfl"/>
+        <default expression="" applyOnUpdate="0" field="retrfl"/>
+        <default expression="" applyOnUpdate="0" field="radsta"/>
+        <default expression="" applyOnUpdate="0" field="rtpbcn"/>
+        <default expression="" applyOnUpdate="0" field="rdosta"/>
+        <default expression="" applyOnUpdate="0" field="sistat"/>
+        <default expression="" applyOnUpdate="0" field="sistaw"/>
+        <default expression="" applyOnUpdate="0" field="lights"/>
+        <default expression="" applyOnUpdate="0" field="bcnshp"/>
+        <default expression="" applyOnUpdate="0" field="catcam"/>
+        <default expression="" applyOnUpdate="0" field="colour"/>
+        <default expression="" applyOnUpdate="0" field="height"/>
+        <default expression="" applyOnUpdate="0" field="objl"/>
+        <default expression="" applyOnUpdate="0" field="icon"/>
+        <default expression="" applyOnUpdate="0" field="icon_objl"/>
+        <default expression="" applyOnUpdate="0" field="icon_fogsig"/>
+        <default expression="" applyOnUpdate="0" field="catlam"/>
+        <default expression="" applyOnUpdate="0" field="catspm"/>
+        <default expression="" applyOnUpdate="0" field="boyshp"/>
+        <default expression="" applyOnUpdate="0" field="catfor"/>
+        <default expression="" applyOnUpdate="0" field="valnmr"/>
+        <default expression="" applyOnUpdate="0" field="sectr1"/>
+        <default expression="" applyOnUpdate="0" field="sectr2"/>
+        <default expression="" applyOnUpdate="0" field="catlmk"/>
+        <default expression="" applyOnUpdate="0" field="functn"/>
+        <default expression="" applyOnUpdate="0" field="catmor"/>
+        <default expression="" applyOnUpdate="0" field="aisfct"/>
+        <default expression="" applyOnUpdate="0" field="catple"/>
+        <default expression="" applyOnUpdate="0" field="buishp"/>
+        <default expression="" applyOnUpdate="0" field="catsil"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="inspireid" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="posacc" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="objnam" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="numald" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="topmar" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="fogsig" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="radrfl" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="retrfl" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="radsta" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="rtpbcn" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="rdosta" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="sistat" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="sistaw" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="lights" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="bcnshp" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="catcam" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="colour" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="height" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="objl" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="icon" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="icon_objl" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="icon_fogsig" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="catlam" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="catspm" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="boyshp" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="catfor" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="valnmr" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="sectr1" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="sectr2" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="catlmk" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="functn" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="catmor" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="aisfct" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="catple" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="buishp" unique_strength="0"/>
+        <constraint exp_strength="0" constraints="0" notnull_strength="0" field="catsil" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="inspireid" desc=""/>
+        <constraint exp="" field="posacc" desc=""/>
+        <constraint exp="" field="objnam" desc=""/>
+        <constraint exp="" field="numald" desc=""/>
+        <constraint exp="" field="topmar" desc=""/>
+        <constraint exp="" field="fogsig" desc=""/>
+        <constraint exp="" field="radrfl" desc=""/>
+        <constraint exp="" field="retrfl" desc=""/>
+        <constraint exp="" field="radsta" desc=""/>
+        <constraint exp="" field="rtpbcn" desc=""/>
+        <constraint exp="" field="rdosta" desc=""/>
+        <constraint exp="" field="sistat" desc=""/>
+        <constraint exp="" field="sistaw" desc=""/>
+        <constraint exp="" field="lights" desc=""/>
+        <constraint exp="" field="bcnshp" desc=""/>
+        <constraint exp="" field="catcam" desc=""/>
+        <constraint exp="" field="colour" desc=""/>
+        <constraint exp="" field="height" desc=""/>
+        <constraint exp="" field="objl" desc=""/>
+        <constraint exp="" field="icon" desc=""/>
+        <constraint exp="" field="icon_objl" desc=""/>
+        <constraint exp="" field="icon_fogsig" desc=""/>
+        <constraint exp="" field="catlam" desc=""/>
+        <constraint exp="" field="catspm" desc=""/>
+        <constraint exp="" field="boyshp" desc=""/>
+        <constraint exp="" field="catfor" desc=""/>
+        <constraint exp="" field="valnmr" desc=""/>
+        <constraint exp="" field="sectr1" desc=""/>
+        <constraint exp="" field="sectr2" desc=""/>
+        <constraint exp="" field="catlmk" desc=""/>
+        <constraint exp="" field="functn" desc=""/>
+        <constraint exp="" field="catmor" desc=""/>
+        <constraint exp="" field="aisfct" desc=""/>
+        <constraint exp="" field="catple" desc=""/>
+        <constraint exp="" field="buishp" desc=""/>
+        <constraint exp="" field="catsil" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns>
+          <column width="-1" type="field" name="inspireid" hidden="0"/>
+          <column width="-1" type="field" name="posacc" hidden="0"/>
+          <column width="-1" type="field" name="objnam" hidden="0"/>
+          <column width="-1" type="field" name="numald" hidden="0"/>
+          <column width="-1" type="field" name="topmar" hidden="0"/>
+          <column width="-1" type="field" name="fogsig" hidden="0"/>
+          <column width="-1" type="field" name="radrfl" hidden="0"/>
+          <column width="-1" type="field" name="retrfl" hidden="0"/>
+          <column width="-1" type="field" name="radsta" hidden="0"/>
+          <column width="-1" type="field" name="rtpbcn" hidden="0"/>
+          <column width="-1" type="field" name="rdosta" hidden="0"/>
+          <column width="-1" type="field" name="sistat" hidden="0"/>
+          <column width="-1" type="field" name="sistaw" hidden="0"/>
+          <column width="-1" type="field" name="lights" hidden="0"/>
+          <column width="-1" type="field" name="bcnshp" hidden="0"/>
+          <column width="-1" type="field" name="catcam" hidden="0"/>
+          <column width="-1" type="field" name="colour" hidden="0"/>
+          <column width="-1" type="field" name="height" hidden="0"/>
+          <column width="-1" type="field" name="objl" hidden="0"/>
+          <column width="-1" type="field" name="icon" hidden="0"/>
+          <column width="-1" type="field" name="icon_objl" hidden="0"/>
+          <column width="-1" type="field" name="icon_fogsig" hidden="0"/>
+          <column width="-1" type="field" name="catlam" hidden="0"/>
+          <column width="-1" type="field" name="catspm" hidden="0"/>
+          <column width="-1" type="field" name="boyshp" hidden="0"/>
+          <column width="-1" type="field" name="catfor" hidden="0"/>
+          <column width="-1" type="field" name="valnmr" hidden="0"/>
+          <column width="-1" type="field" name="sectr1" hidden="0"/>
+          <column width="-1" type="field" name="sectr2" hidden="0"/>
+          <column width="-1" type="field" name="catlmk" hidden="0"/>
+          <column width="-1" type="field" name="functn" hidden="0"/>
+          <column width="-1" type="field" name="catmor" hidden="0"/>
+          <column width="-1" type="field" name="aisfct" hidden="0"/>
+          <column width="-1" type="field" name="catple" hidden="0"/>
+          <column width="-1" type="field" name="buishp" hidden="0"/>
+          <column width="-1" type="field" name="catsil" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ "Fonction d'initialisation Python".
+Voici un exemple à suivre:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="aisfct"/>
+        <field editable="1" name="bcnshp"/>
+        <field editable="1" name="boyshp"/>
+        <field editable="1" name="buishp"/>
+        <field editable="1" name="catcam"/>
+        <field editable="1" name="catfor"/>
+        <field editable="1" name="catlam"/>
+        <field editable="1" name="catlmk"/>
+        <field editable="1" name="catmor"/>
+        <field editable="1" name="catple"/>
+        <field editable="1" name="catsil"/>
+        <field editable="1" name="catspm"/>
+        <field editable="1" name="colour"/>
+        <field editable="1" name="fogsig"/>
+        <field editable="1" name="functn"/>
+        <field editable="1" name="height"/>
+        <field editable="1" name="icon"/>
+        <field editable="1" name="icon_fogsig"/>
+        <field editable="1" name="icon_objl"/>
+        <field editable="1" name="inspireid"/>
+        <field editable="1" name="lights"/>
+        <field editable="1" name="numald"/>
+        <field editable="1" name="objl"/>
+        <field editable="1" name="objnam"/>
+        <field editable="1" name="posacc"/>
+        <field editable="1" name="radrfl"/>
+        <field editable="1" name="radsta"/>
+        <field editable="1" name="rdosta"/>
+        <field editable="1" name="retrfl"/>
+        <field editable="1" name="rtpbcn"/>
+        <field editable="1" name="sectr1"/>
+        <field editable="1" name="sectr2"/>
+        <field editable="1" name="sistat"/>
+        <field editable="1" name="sistaw"/>
+        <field editable="1" name="topmar"/>
+        <field editable="1" name="valnmr"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="aisfct"/>
+        <field labelOnTop="0" name="bcnshp"/>
+        <field labelOnTop="0" name="boyshp"/>
+        <field labelOnTop="0" name="buishp"/>
+        <field labelOnTop="0" name="catcam"/>
+        <field labelOnTop="0" name="catfor"/>
+        <field labelOnTop="0" name="catlam"/>
+        <field labelOnTop="0" name="catlmk"/>
+        <field labelOnTop="0" name="catmor"/>
+        <field labelOnTop="0" name="catple"/>
+        <field labelOnTop="0" name="catsil"/>
+        <field labelOnTop="0" name="catspm"/>
+        <field labelOnTop="0" name="colour"/>
+        <field labelOnTop="0" name="fogsig"/>
+        <field labelOnTop="0" name="functn"/>
+        <field labelOnTop="0" name="height"/>
+        <field labelOnTop="0" name="icon"/>
+        <field labelOnTop="0" name="icon_fogsig"/>
+        <field labelOnTop="0" name="icon_objl"/>
+        <field labelOnTop="0" name="inspireid"/>
+        <field labelOnTop="0" name="lights"/>
+        <field labelOnTop="0" name="numald"/>
+        <field labelOnTop="0" name="objl"/>
+        <field labelOnTop="0" name="objnam"/>
+        <field labelOnTop="0" name="posacc"/>
+        <field labelOnTop="0" name="radrfl"/>
+        <field labelOnTop="0" name="radsta"/>
+        <field labelOnTop="0" name="rdosta"/>
+        <field labelOnTop="0" name="retrfl"/>
+        <field labelOnTop="0" name="rtpbcn"/>
+        <field labelOnTop="0" name="sectr1"/>
+        <field labelOnTop="0" name="sectr2"/>
+        <field labelOnTop="0" name="sistat"/>
+        <field labelOnTop="0" name="sistaw"/>
+        <field labelOnTop="0" name="topmar"/>
+        <field labelOnTop="0" name="valnmr"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>inspireid</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="Shom___Balisage_2019_5831e861_3470_4a96_a321_d43ebd3371c9"/>
+    <layer id="atons_fbb35fb7_241b_4460_9f7d_67628df2e4e4"/>
+    <layer id="BALISAGE_BDD_WMSV7__WMTS_data_shom_fr__4a05344a_d33d_4fdc_b574_c11d85d81a92"/>
+  </layerorder>
+  <properties>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <PAL>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <SearchMethod type="int">0</SearchMethod>
+      <TextFormat type="int">0</TextFormat>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+    </PAL>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>signo</author>
+    <creation>2019-04-15T00:14:33</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
