@@ -8,6 +8,16 @@ https://tiles.atons.balisenav.com/styles/atons/#5/46.7/2.7
 - Sprites
 - OpenLayers example
 
+## Quickstart
+
+*Requis: Docker, Port 8080*
+
+```bash
+$ ./start_tileserver.sh
+```
+
+- http://localhost:8080
+
 ## TODO
 
 - [ ] Add FOGSIG to MBTiles + GL Style
