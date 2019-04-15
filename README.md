@@ -13,13 +13,21 @@
 
 ## Quickstart
 
-*Requis: Docker, Port 8080*
+*Required : Docker, Port 8080*
 
 ```bash
 $ ./start_tileserver.sh
 ```
 
 - http://localhost:8080
+
+## Regenerate sprites
+
+*Required : Docker*
+
+```bash
+$ docker run -it -e THEME=atons -v ${PWD}:/data dolomate/spritezero
+```
 
 ## TODO
 
