@@ -1,6 +1,9 @@
 # French Aid To Navigation (ATONs/navaid)
 
-https://tiles.atons.balisenav.com/styles/atons/#5/46.7/2.7
+- OpenMapTiles GL Style (Mapbox) : https://tiles.atons.balisenav.com/styles/atons/#5/46.7/2.7
+- Explore data in tiles : https://tiles.atons.balisenav.com/data/atons/#5/46.7/2.7
+
+---
 
 - Tileserver GL/Raster/WMTS/TileJSON
 - GeoJSON dataset
